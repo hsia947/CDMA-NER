@@ -42,7 +42,7 @@ class Config():
 
 
     # general config
-    dir_output = "results/source/"
+    dir_output = "source_model/"
     dir_model  = dir_output + "model_weights"
     path_log   = dir_output + "log_source.txt"
 

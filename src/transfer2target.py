@@ -55,11 +55,11 @@ def main():
     # build model
     model = SAL_BLSTM_OAL_CRF_Model(config)
     model.build()
-    CHECKPOINT_NAME = "results/source/model_weights"
+    CHECKPOINT_NAME = "source_model/model_weights"
     restored_vars  = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
     tensors_to_load = build_tensors_in_checkpoint_file(restored_vars)
     model.saver = tf.train.Saver(tensors_to_load)
-    model.restore_session("results/source/")
+    model.restore_session("source_model/")
     model.reinitialize_weights("proj")
 
     # create datasets
