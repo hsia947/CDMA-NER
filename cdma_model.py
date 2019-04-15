@@ -12,10 +12,16 @@ from tensorflow.python import pywrap_tensorflow
 class CDMAModel(Ner):
 
     def save_model(self, file):
-        pass
+        self.model.save_session()
 
     def load_model(self, file):
-        pass
+        self.model.build()
+        CHECKPOINT_NAME = "src/source_model/model_weights"
+        restored_vars = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
+        tensors_to_load = build_tensors_in_checkpoint_file(restored_vars)
+        self.model.saver = tf.train.Saver(tensors_to_load)
+        self.model.restore_session("src/source_model/")
+        self.model.reinitialize_weights("proj")
 
     def __init__(self):
         """
@@ -100,12 +106,5 @@ class CDMAModel(Ner):
         """
         self.model.evaluate(self.test_data)
 
-    def build(self):
-        self.model.build()
-        CHECKPOINT_NAME = "src/source_model/model_weights"
-        restored_vars = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
-        tensors_to_load = build_tensors_in_checkpoint_file(restored_vars)
-        self.model.saver = tf.train.Saver(tensors_to_load)
-        self.model.restore_session("src/source_model/")
-        self.model.reinitialize_weights("proj")
+
 
