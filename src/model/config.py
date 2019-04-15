@@ -22,6 +22,7 @@ class Config():
 
     def load(self):
         # 1. vocabulary
+        print(self.filename_words)
         self.vocab_words = load_vocab(self.filename_words)
         self.vocab_tags  = load_vocab(self.filename_tags)
         self.vocab_chars = load_vocab(self.filename_chars)
@@ -57,21 +58,21 @@ class Config():
     use_pretrained = False
 
     # dataset
-    filename_train = "../datasets/conll2003/train"
-    filename_dev = "../datasets/conll2003/dev"
-    filename_test = "../datasets/conll2003/test"
+    filename_train = "datasets/conll2003/train"
+    filename_dev = "datasets/conll2003/dev"
+    filename_test = "datasets/conll2003/test"
 
 
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with prep_source_data.py)
-    filename_words = "data/source_words.txt"
-    filename_tags = "data/source_tags.txt"
-    filename_chars = "data/source_chars.txt"
+    filename_words = "src/data/source_words.txt"
+    filename_tags = "src/data/source_tags.txt"
+    filename_chars = "src/data/source_chars.txt"
 
     # training
     train_embeddings = True
-    nepochs          = 10
+    nepochs          = 3
     dropout          = 0.5
     batch_size       = 20
     lr_method        = "adam"
