@@ -288,3 +288,65 @@ Instructions for updating:
 Use standard file APIs to check for files with this prefix.
 2019-04-14 22:01:38,374:INFO: Restoring parameters from src/source_model/model_weights
 2019-04-14 22:01:39,905:INFO: Epoch 1 out of 3
+2019-04-16 21:17:28,417:INFO: WARNING: randomly initializing word vectors
+2019-04-16 21:17:28,425:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-16 21:17:32,414:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-16 21:17:32,415:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-16 21:17:32,415:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-16 21:17:32,428:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-16 21:17:32,846:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-16 21:17:36,890:INFO: Initializing tf session
+2019-04-16 21:17:37,794:INFO: Reloading the latest trained model...
+2019-04-16 21:17:37,809:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-16 21:17:37,811:INFO: Restoring parameters from src/source_model/model_weights
+2019-04-16 21:17:39,154:INFO: Epoch 1 out of 3
+2019-04-16 21:19:56,004:INFO: acc 95.28 - f1 36.82 - p 67.69 - r 25.29
+2019-04-16 21:19:56,717:INFO: - new best score!
+2019-04-16 21:19:56,717:INFO: Epoch 2 out of 3
+2019-04-16 21:22:03,056:INFO: acc 95.78 - f1 47.01 - p 67.02 - r 36.21
+2019-04-16 21:22:03,718:INFO: - new best score!
+2019-04-16 21:22:03,719:INFO: Epoch 3 out of 3
+2019-04-16 21:24:16,195:INFO: acc 96.14 - f1 55.05 - p 69.91 - r 45.40
+2019-04-16 21:24:16,771:INFO: - new best score!
+2019-04-16 21:24:16,772:INFO: Testing model over test set
+2019-04-16 21:24:21,233:INFO: acc 96.72 - f1 56.14 - p 70.18 - r 46.78
+2019-04-16 21:26:16,910:INFO: WARNING: randomly initializing word vectors
+2019-04-16 21:26:16,915:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-16 21:26:17,466:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-16 21:26:17,467:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-16 21:26:17,467:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-16 21:26:17,472:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-16 21:26:17,902:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-16 21:26:22,003:INFO: Initializing tf session
+2019-04-16 21:26:22,870:INFO: Reloading the latest trained model...
+2019-04-16 21:26:22,875:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-16 21:26:22,878:INFO: Restoring parameters from src/source_model/model_weights
+2019-04-16 21:26:24,268:INFO: Epoch 1 out of 3

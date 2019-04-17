@@ -23,15 +23,15 @@ class CDMAModel(Ner):
         self.model.restore_session("src/source_model/")
         self.model.reinitialize_weights("proj")
 
-    def __init__(self):
+    def __init__(self, dataset_name):
         """
               initialize config
               build model
         """
         self.config = Config()
-        self.config.filename_train = "datasets/ritter2011/train"
-        self.config.filename_dev = "datasets/ritter2011/dev"
-        self.config.filename_test = "datasets/ritter2011/test"
+        self.config.filename_train = "datasets/"+dataset_name+"/train"
+        self.config.filename_dev = "datasets/"+dataset_name+"/dev"
+        self.config.filename_test = "datasets/"+dataset_name+"/test"
 
         self.config.filename_chars = self.config.filename_chars.replace("source", "target")
         self.config.filename_glove = self.config.filename_glove.replace("source", "target")

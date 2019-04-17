@@ -2,7 +2,8 @@ from cdma_model import CDMAModel
 
 
 def main():
-    model = CDMAModel()
+
+    model = CDMAModel("ritter2011")
     model.load_model(None)
     model.read_dataset(None, None)
     model.train(None)
