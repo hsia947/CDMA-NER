@@ -14,13 +14,13 @@ class CDMAModel(Ner):
     def save_model(self, file):
         self.model.save_session()
 
-    def load_model(self, file, path):
+    def load_model(self, restore_file, restore_path):
         self.model.build()
-        CHECKPOINT_NAME = file
+        CHECKPOINT_NAME = restore_file
         restored_vars = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
         tensors_to_load = build_tensors_in_checkpoint_file(restored_vars)
         self.model.saver = tf.train.Saver(tensors_to_load)
-        self.model.restore_session(path)
+        self.model.restore_session(restore_path)
         self.model.reinitialize_weights("proj")
 
     def __init__(self, dataset_path):

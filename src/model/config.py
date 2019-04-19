@@ -52,9 +52,9 @@ class Config():
     dim_char = 100
 
     # glove files
-    filename_glove = "../resources/source.emb".format(dim_word)
+    filename_glove = "resources/source.emb".format(dim_word)
     # trimmed embeddings (created from glove_filename with prep_source_data.py)
-    filename_trimmed = "../resources/source.emb.trimmed.npz".format(dim_word)
+    filename_trimmed = "resources/source.emb.trimmed.npz".format(dim_word)
     use_pretrained = False
 
     # dataset

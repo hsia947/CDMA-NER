@@ -86,7 +86,7 @@ Good O O
 day O O
 :) O O
 from O O
-JPN B-geo-loc $UNK$
+JPN B-geo-loc O
 . O O
   O
 @skaffbm O O
@@ -157,7 +157,7 @@ go O O
 back O O
 live O O
 on O O
-Ustream B-company O
+Ustream B-company $UNK$
 later O O
 tonight O O
   O
@@ -264,7 +264,7 @@ gamecard O O
   O
 watching O O
 the O O
-VMA B-tvshow O
+VMA B-tvshow $UNK$
 pre-show O O
 again O O
 lol O O
@@ -333,7 +333,7 @@ This O O
 Week O O
 : O O
 The O O
-Drama O $UNK$
+Drama O O
 Edition O O
 : O O
 Had O O
@@ -395,15 +395,15 @@ Deep B-company O
 Sea I-company O
 Intervention I-company O
 opens O O
-Singapore B-geo-loc O
+Singapore B-geo-loc $UNK$
 facility O O
 : O O
 September O O
 17,201 O O
 0 O O
 -- O O
-Deep B-company $UNK$
-Sea I-company $UNK$
+Deep B-company O
+Sea I-company O
 Intervention I-company O
 has O O
 opened O O
@@ -504,13 +504,13 @@ RT O O
 Tonite O O
 I O O
 m O O
-DJing O O
+DJing O $UNK$
 at O O
 Mai B-facility $UNK$
 Tai I-facility $UNK$
 in O O
-Long B-geo-loc $UNK$
-Beach I-geo-loc $UNK$
+Long B-geo-loc O
+Beach I-geo-loc O
 . O O
 I'm O O
 considering O O
@@ -524,8 +524,8 @@ it O O
 My O O
 tie O O
 = O O
-Mai O $UNK$
-Tai O $UNK$
+Mai O O
+Tai O O
 ? O O
 No O O
 ? O O
@@ -539,8 +539,8 @@ to O O
 get O O
 into O O
 the O O
-PJ O $UNK$
-Bottoms O $UNK$
+PJ O O
+Bottoms O O
 ;D O O
   O
 starting O O
@@ -602,7 +602,7 @@ Like O O
 " O O
 us O O
 on O O
-Facebook B-company O
+Facebook B-company $UNK$
 , O O
 get O O
 entered O O
@@ -772,10 +772,10 @@ band O O
 to O O
 compete O O
 in O O
-South B-company O
-107 I-company O
-'s O O
-Battle O O
+South B-company $UNK$
+107 I-company $UNK$
+'s O $UNK$
+Battle O $UNK$
 of O O
 the O O
 Bands O O
@@ -1004,11 +1004,11 @@ Oct O O
 at O O
 10:28 O O
 am O O
-The O O
+The O $UNK$
 Tunnels O $UNK$
 Carnegies O $UNK$
-Brae O $UNK$
-Aberdeen O $UNK$
+Brae O O
+Aberdeen O O
 Un O O
 ... O O
   O
@@ -1167,7 +1167,7 @@ the O O
 story O O
 ... O O
   O
-Madden B-product O
+Madden B-product $UNK$
 tonite O O
 !!! O O
 the O O
@@ -1219,8 +1219,8 @@ http://ow.ly/i/3TYe O O
 @whitneytweets O O
 @matthewlawton O O
 and O O
-Wonder B-person $UNK$
-Woman I-person $UNK$
+Wonder B-person O
+Woman I-person O
 ! O O
   O
 Why O O
@@ -1642,7 +1642,7 @@ boys O O
 , O O
 Shane B-person O
 &amp; O O
-Jonah B-person $UNK$
+Jonah B-person O
 . O O
 And O O
 this O O
@@ -1719,7 +1719,7 @@ seen O O
 of O O
 you O O
 and O O
-Elvis B-person O
+Elvis B-person $UNK$
 on O O
 stage O O
 yesterday O O
@@ -2114,7 +2114,7 @@ This O O
 Week O O
 : O O
 The O O
-Drama O $UNK$
+Drama O O
 Edition O O
 : O O
 Had O O
@@ -2292,7 +2292,7 @@ today O O
 's O O
 Forensic O $UNK$
 Science O $UNK$
-Comm O $UNK$
+Comm O O
 . O O
 meeting O O
 , O O
@@ -2338,7 +2338,7 @@ Carly B-person O
 was O O
 Megan B-person $UNK$
 and O O
-Josh B-person O
+Josh B-person $UNK$
 was O O
 fat O O
 . O O
@@ -2398,7 +2398,7 @@ already O O
 . O O
   O
 @erutan O O
-Stanford B-other O
+Stanford B-other $UNK$
 's O O
 Robert B-person $UNK$
 Laughlin I-person $UNK$
@@ -2709,8 +2709,8 @@ you O O
 one O O
 time O O
 ! O O
-JUTHTIN B-person $UNK$
-BEAVERRRR I-person $UNK$
+JUTHTIN B-person O
+BEAVERRRR I-person O
 !!!! O O
   O
 @CHRIS_Daughtry O O
@@ -2757,7 +2757,7 @@ page O O
 headline O O
 tomorrow O O
 : O O
-Pope B-person O
+Pope B-person $UNK$
 's O O
 battle O O
 to O O
@@ -2813,7 +2813,7 @@ pal O O
 !! O O
 How O O
 's O O
-Hawaii B-geo-loc O
+Hawaii B-geo-loc $UNK$
 ?? O O
 when O O
 are O O
@@ -2935,8 +2935,8 @@ Sunday O O
 morning O O
 gathering O O
 at O O
-New B-facility O
-Life I-facility O
+New B-facility $UNK$
+Life I-facility $UNK$
 can O O
 be O O
 watched O O
@@ -2987,7 +2987,7 @@ again O O
 HUrrah O O
 !! O O
   O
-Music O O
+Music O $UNK$
 &amp; O O
 More O O
 Industry O O
@@ -3002,7 +3002,7 @@ http://goo.gl/fb/5CBjZ O O
 RT O O
 @davehodg O O
 : O O
-Pope B-person O
+Pope B-person $UNK$
 says O O
 atheists O O
 pick O O
@@ -3165,7 +3165,7 @@ of O O
 my O O
 phone O O
   O
-Israel B-geo-loc O
+Israel B-geo-loc $UNK$
 grinds O O
 to O O
 a O O
@@ -3268,7 +3268,7 @@ it O O
 in O O
 stores O O
 . O O
-KY B-geo-loc O
+KY B-geo-loc $UNK$
 ships O O
 next O O
 week O O
@@ -3312,7 +3312,7 @@ to O O
 make O O
 tonight O O
 's O O
-Brixton B-geo-loc O
+Brixton B-geo-loc $UNK$
 bashment O O
 our O O
 birthday O O
@@ -3380,8 +3380,8 @@ already O O
 8 O O
 ) O O
   O
-The B-movie O
-Town I-movie O
+The B-movie $UNK$
+Town I-movie $UNK$
 was O O
 a O O
 really O O
@@ -3412,7 +3412,7 @@ in O O
 Naples B-geo-loc $UNK$
 tomorrow O O
 with O O
-N.E.R.D. B-musicartist $UNK$
+N.E.R.D. B-musicartist O
 , O O
 Maroon B-musicartist $UNK$
 5 I-musicartist O
@@ -3420,13 +3420,13 @@ and O O
 others O O
 at O O
 the O O
-MTV B-other O
+MTV B-other $UNK$
 show O O
 . O O
 Tonight O O
 Stars B-facility O
 in O O
-Vordingborg B-geo-loc O
+Vordingborg B-geo-loc $UNK$
 - O O
 few O O
 tic O O
@@ -3520,7 +3520,7 @@ via O O
 Done O O
 teaching O O
 in O O
-Viera B-geo-loc O
+Viera B-geo-loc $UNK$
 time O O
 for O O
 some O O
@@ -3543,8 +3543,8 @@ weeks O O
 tell O O
 ' O O
 em O O
-Steve B-person O
-Dave I-person O
+Steve B-person $UNK$
+Dave I-person $UNK$
 Podcast O O
   O
 Amazing O O
@@ -3649,14 +3649,14 @@ to O O
 eat O O
 at O O
 Loveless B-facility $UNK$
-Cafe I-facility O
+Cafe I-facility $UNK$
 tonight O O
 ! O O
 :) O O
   O
-Columbus B-geo-loc O
+Columbus B-geo-loc $UNK$
 , O O
-GA B-geo-loc O
+GA B-geo-loc $UNK$
 : O O
 @TimmNintey146 O O
 and O O
@@ -3773,7 +3773,7 @@ time O O
 I O O
 chatted O O
 with O O
-Kyle B-person O
+Kyle B-person $UNK$
 was O O
 June O O
 . O O
@@ -3832,7 +3832,7 @@ the O O
 answer O O
 IS O O
 on O O
-JavaMonkeys O $UNK$
+JavaMonkeys O O
 . O O
 com O O
 . O O
@@ -3878,8 +3878,8 @@ angry O O
 masturbators O O
 marched O O
 against O O
-Christine B-person O
-O'Donnell I-person O
+Christine B-person $UNK$
+O'Donnell I-person $UNK$
 today O O
 http://bit.ly/9nTWQw O O
 Seriously O O
@@ -3970,7 +3970,7 @@ I O O
 3 O O
 fall O O
 in O O
-Rodanthe B-geo-loc $UNK$
+Rodanthe B-geo-loc O
 @OBXcom O O
   O
 International B-other $UNK$
@@ -4220,9 +4220,9 @@ today O O
   O
 Happy O O
 B-Day O O
-Jimmie B-person $UNK$
-Johnson I-person $UNK$
-FLYING O $UNK$
+Jimmie B-person O
+Johnson I-person O
+FLYING O O
 LIZARD O O
   O
 Kahlua B-product O
@@ -4248,8 +4248,8 @@ Friday O O
 night O O
 ! O O
   O
-Facebook B-company $UNK$
-Job-Hunting O $UNK$
+Facebook B-company O
+Job-Hunting O O
 App O O
 BranchOut O O
 Raises O O
@@ -4366,7 +4366,7 @@ so O O
 they O O
 hate O O
 on O O
-Shane B-person O
+Shane B-person $UNK$
 instead O O
 :( O O
 :' O O
@@ -4438,8 +4438,8 @@ Should O O
 I O O
 call O O
 him O O
-Joel B-person O
-Ward I-person O
+Joel B-person $UNK$
+Ward I-person $UNK$
 if O O
 he O O
 's O O
@@ -4641,7 +4641,7 @@ suspenders O O
 lol O O
 :P O O
   O
-Balloon O O
+Balloon O $UNK$
 glowing O O
 ? O O
 We'd O O
@@ -4657,7 +4657,7 @@ Pi B-geo-loc O
 ! O O
 CWE B-geo-loc O
 and O O
-Delmar B-geo-loc O
+Delmar B-geo-loc $UNK$
 are O O
 around O O
 the O O
@@ -4742,7 +4742,7 @@ racism O O
 , O O
 fascism O O
 and O O
-Islamophobia O O
+Islamophobia O $UNK$
 http://uaf.org.uk/1465 O O
   O
 Why O O
@@ -4853,23 +4853,23 @@ is O O
 expected O O
 today O O
 on O O
-Milford B-other $UNK$
-Rd I-other $UNK$
+Milford B-other O
+Rd I-other O
 , O O
-Lindis B-geo-loc $UNK$
-Pass I-geo-loc $UNK$
+Lindis B-geo-loc O
+Pass I-geo-loc O
 and O O
-Arthurs B-geo-loc $UNK$
-Pass I-geo-loc $UNK$
+Arthurs B-geo-loc O
+Pass I-geo-loc O
 today O O
 http://ow.ly/2G4Re O O
 No O O
 warnings O O
 for O O
-Desert B-other $UNK$
-Rd I-other $UNK$
+Desert B-other O
+Rd I-other O
 , O O
-Lewis B-geo-loc O
+Lewis B-geo-loc $UNK$
 , O O
 Rimutakas B-geo-loc O
   O
@@ -4878,7 +4878,7 @@ Rimutakas B-geo-loc O
 be O O
 back O O
 in O O
-LA B-geo-loc O
+LA B-geo-loc $UNK$
 tomorrow O O
 night O O
 ! O O
@@ -4912,7 +4912,7 @@ have O O
 to O O
 look O O
 after O O
-Michael B-person O
+Michael B-person $UNK$
 and O O
 his O O
 friend O O
@@ -4955,8 +4955,8 @@ Paris B-person $UNK$
 Hilton I-person $UNK$
 , O O
 now O O
-Miley B-person $UNK$
-Cyrus I-person $UNK$
+Miley B-person O
+Cyrus I-person O
 ! O O
 Cops O O
 responded O O

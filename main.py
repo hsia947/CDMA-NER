@@ -4,7 +4,7 @@ from cdma_model import CDMAModel
 def main(input_file_path):
 
     model = CDMAModel(input_file_path)
-    model.load_model("source_model/model_weights", "source_model/") #pretrained model
+    model.load_model("target_model/model_weights", "target_model/") #pretrained model
     model.read_dataset(None, None)
     model.train(None)
     p, f1, r = model.evaluate(None, None)

@@ -104,6 +104,7 @@ class BaseModel(object):
         if not os.path.exists(self.config.dir_model):
             os.makedirs(self.config.dir_model)
         self.saver.save(self.sess, self.config.dir_model)
+        print("Save session test")
 
 
     def close_session(self):
