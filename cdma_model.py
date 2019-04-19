@@ -14,24 +14,24 @@ class CDMAModel(Ner):
     def save_model(self, file):
         self.model.save_session()
 
-    def load_model(self, file):
+    def load_model(self, file, path):
         self.model.build()
-        CHECKPOINT_NAME = "src/source_model/model_weights"
+        CHECKPOINT_NAME = file
         restored_vars = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
         tensors_to_load = build_tensors_in_checkpoint_file(restored_vars)
         self.model.saver = tf.train.Saver(tensors_to_load)
-        self.model.restore_session("src/source_model/")
+        self.model.restore_session(path)
         self.model.reinitialize_weights("proj")
 
-    def __init__(self, dataset_name):
+    def __init__(self, dataset_path):
         """
               initialize config
               build model
         """
         self.config = Config()
-        self.config.filename_train = "datasets/"+dataset_name+"/train"
-        self.config.filename_dev = "datasets/"+dataset_name+"/dev"
-        self.config.filename_test = "datasets/"+dataset_name+"/test"
+        self.config.filename_train = dataset_path+"/train"
+        self.config.filename_dev = dataset_path+"/dev"
+        self.config.filename_test = dataset_path+"/test"
 
         self.config.filename_chars = self.config.filename_chars.replace("source", "target")
         self.config.filename_glove = self.config.filename_glove.replace("source", "target")
@@ -72,6 +72,7 @@ class CDMAModel(Ner):
         self.test_data = NERDataset(self.config.filename_test, self.config.processing_word,
                           self.config.processing_tag, self.config.max_iter)
 
+
     def train(self, data, *args, **kwargs):
         """
         :param data: train dataset
@@ -82,7 +83,7 @@ class CDMAModel(Ner):
         """
         self.model.train(self.train_data, self.dev_data)
 
-    def predict(self, data, *args, **kwargs):
+    def predict(self, data_path, *args, **kwargs):
         """
 
         :param data: test
@@ -91,7 +92,23 @@ class CDMAModel(Ner):
         :return: preds, lentgth
         call model.predict_batch(data)
         """
-        return self.model.predict(data)
+        words, tags = [], []
+        with open(data_path, encoding="utf8") as f:
+
+            for line in f:
+                line = line.strip()
+                line = line.replace("\t", " ")
+                ls = line.split(" ")
+                word, tag = ls[0], ls[-1]
+                words += [word]
+                tags += [tag]
+        tags_pred = self.model.predict(words)
+        with open("predict_out.txt", "w") as f:
+            for line in zip(words, tags, tags_pred):
+                str = line[0]+" "+line[1]+" "+line[2]+"\n"
+                f.write(str)
+        return "predict_out.txt"
+
 
     def evaluate(self, predictions, groundTruths, *args, **kwargs):
         """
@@ -104,7 +121,11 @@ class CDMAModel(Ner):
         call model.evaluation(test)
 
         """
-        self.model.evaluate(self.test_data)
+        metrics = self.model.evaluate(self.test_data)
+        p = metrics["p"]
+        f1 = metrics["f1"]
+        r = metrics["r"]
+        return p, f1, r
 
 
 

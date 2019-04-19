@@ -1,13 +1,18 @@
 from cdma_model import CDMAModel
 
 
-def main():
+def main(input_file_path):
 
-    model = CDMAModel("ritter2011")
-    model.load_model(None)
+    model = CDMAModel(input_file_path)
+    model.load_model("source_model/model_weights", "source_model/") #pretrained model
     model.read_dataset(None, None)
     model.train(None)
-    model.evaluate(None, None)
+    p, f1, r = model.evaluate(None, None)
+    output_path = model.predict(input_file_path+"/test")
+    return output_path
+
 
 if __name__ == "__main__":
-    main()
+    path = "datasets/ritter2011"
+    out_path = main(path)
+    print("Predict_output_path: ", out_path)

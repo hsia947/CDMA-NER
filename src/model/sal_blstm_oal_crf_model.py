@@ -291,8 +291,8 @@ class SAL_BLSTM_OAL_CRF_Model(BaseModel):
         return {"acc": 100*acc, "f1": 100*f1, "p":100*p, "r": 100*r}
 
 
-    def predict(self, words_raw):
-        words = [self.config.processing_word(w) for w in words_raw]
+    def predict(self, test):
+        words = [self.config.processing_word(w) for w in test]
         if type(words[0]) == tuple:
             words = zip(*words)
         pred_ids, _ = self.predict_batch([words])
