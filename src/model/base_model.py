@@ -104,7 +104,7 @@ class BaseModel(object):
         if not os.path.exists(self.config.dir_model):
             os.makedirs(self.config.dir_model)
         self.saver.save(self.sess, self.config.dir_model)
-        print("Save session test")
+        print("Save session succeed")
 
 
     def close_session(self):
@@ -135,12 +135,13 @@ class BaseModel(object):
         best_score = 0
         nepoch_no_imprv = 0 # for early stopping
         self.add_summary() # tensorboard
-
+        lost_list = []
+        acc_list = []
         for epoch in range(self.config.nepochs):
             self.logger.info("Epoch {:} out of {:}".format(epoch + 1,
                         self.config.nepochs))
 
-            score = self.run_epoch(train, dev, epoch)
+            score, loss_hist, train_acc_hist = self.run_epoch(train, dev, epoch)
             self.config.lr *= self.config.lr_decay # decay learning rate
 
             # early stopping and saving best parameters
@@ -149,12 +150,16 @@ class BaseModel(object):
                 self.save_session()
                 best_score = score
                 self.logger.info("- new best score!")
+                lost_list.extend(loss_hist)
+                acc_list.append(train_acc_hist)
             else:
                 nepoch_no_imprv += 1
                 if nepoch_no_imprv >= self.config.nepoch_no_imprv:
                     self.logger.info("- early stopping {} epochs without "\
                             "improvement".format(nepoch_no_imprv))
+
                     break
+        return lost_list, acc_list
 
 
     def evaluate(self, test):

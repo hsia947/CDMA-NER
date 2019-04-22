@@ -22,7 +22,7 @@ class Config():
 
     def load(self):
         # 1. vocabulary
-        print(self.filename_words)
+        #print(self.filename_words)
         self.vocab_words = load_vocab(self.filename_words)
         self.vocab_tags  = load_vocab(self.filename_tags)
         self.vocab_chars = load_vocab(self.filename_chars)

@@ -14,7 +14,8 @@ class SAL_BLSTM_OAL_CRF_Model(BaseModel):
         super(SAL_BLSTM_OAL_CRF_Model, self).__init__(config)
         self.idx_to_tag = {idx: tag for tag, idx in
                            self.config.vocab_tags.items()}
-
+        self.loss_hist = []
+        self.train_acc_hist = []
 
     def add_placeholders(self):
         # shape = (batch size, max length of sentence in batch)
@@ -254,13 +255,14 @@ class SAL_BLSTM_OAL_CRF_Model(BaseModel):
             # tensorboard
             if i % 10 == 0:
                 self.file_writer.add_summary(summary, epoch*nbatches + i)
-
+            self.loss_hist.append(train_loss)
         metrics = self.run_evaluate(dev)
+        self.train_acc_hist.append(metrics["acc"])
         msg = " - ".join(["{} {:04.2f}".format(k, v)
                 for k, v in metrics.items()])
         self.logger.info(msg)
 
-        return metrics["f1"]
+        return metrics["f1"], self.loss_hist, self.train_acc_hist
 
 
     def run_evaluate(self, test):

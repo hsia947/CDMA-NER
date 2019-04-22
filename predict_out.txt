@@ -18,11 +18,10 @@ trumps O O
 sleep O O
 though O O
 . O O
-  O
 RT O O
 @NAT3OH3 O O
 : O O
-VMB B-other O
+VMB B-other $UNK$
 awards I-other O
 last O O
 night O O
@@ -49,7 +48,6 @@ show O O
 tonight O O
 .. O O
 ... O O
-  O
 jus O O
 about O O
 to O O
@@ -64,7 +62,6 @@ a O O
 very O O
 long O O
 day O O
-  O
 @TrustL33 O O
 word O O
 im O O
@@ -75,7 +72,6 @@ the O O
 day O O
 it O O
 drops O O
-  O
 @2kjdream O O
 Good O O
 morning O O
@@ -86,9 +82,8 @@ Good O O
 day O O
 :) O O
 from O O
-JPN B-geo-loc O
+JPN B-geo-loc $UNK$
 . O O
-  O
 @skaffbm O O
 love O O
 that O O
@@ -106,7 +101,6 @@ goes O O
 to O O
 richmond B-geo-loc O
 ?? O O
-  O
 @StarryEyedJoeJ O O
 like O O
 after O O
@@ -122,7 +116,6 @@ do O O
 I O O
 do O O
 ?! O O
-  O
 I O O
 have O O
 lost O O
@@ -142,7 +135,6 @@ loved O O
 is O O
 now O O
 gone O O
-  O
 RT O O
 @LilTwist O O
 : O O
@@ -160,7 +152,6 @@ on O O
 Ustream B-company $UNK$
 later O O
 tonight O O
-  O
 @wildflower94 O O
 hw O O
 =/ O O
@@ -177,7 +168,6 @@ guna O O
 b O O
 a O O
 mess O O
-  O
 RT O O
 @Silje954 O O
 : O O
@@ -195,7 +185,7 @@ ARTIST O O
 http://on.mtv.com/9w2tWQ O O
 &lt; O O
 -- O O
-GO O O
+GO O $UNK$
 AND O O
 VOTE O O
 , O O
@@ -205,7 +195,6 @@ RUNNING O O
 OUT O O
 ! O O
 ... O O
-  O
 @Genuine O O
 Will O O
 I O O
@@ -217,7 +206,6 @@ at O O
 next O O
 week O O
 ? O O
-  O
 been O O
 listenin O O
 to O O
@@ -241,7 +229,6 @@ in O O
 luv O O
 yeeuuuuppp O O
 !!! O O
-  O
 'FREEGAME O O
 FRIDAY O O
 !!! O O
@@ -261,7 +248,6 @@ FREE O O
 timeplay O O
 gamecard O O
 !' O O
-  O
 watching O O
 the O O
 VMA B-tvshow $UNK$
@@ -282,7 +268,6 @@ time O O
 so O O
 bored O O
 ! O O
-  O
 Just O O
 ordered O O
 pizza O O
@@ -311,7 +296,6 @@ deliver O O
 five O O
 hours O O
 away/ O O
-  O
 @sardesairajdeep O O
 I O O
 can O O
@@ -321,13 +305,12 @@ kinds O O
 of O O
 reactions O O
 after O O
-Ayodhya B-person O
+Ayodhya B-person $UNK$
 verdict O O
 . O O
-  O
 Our O O
 Favorite O O
-YouTube B-company O
+YouTube B-company $UNK$
 Videos O O
 This O O
 Week O O
@@ -351,7 +334,6 @@ the O O
 cryin O O
 ... O O
 http://bit.ly/cuy0yt O O
-  O
 Today O O
 's O O
 post O O
@@ -361,7 +343,6 @@ about O O
 graffitti O O
 ... O O
 http://francescoandreone.blogspot.com/2010/09/banksy-makes-social-commentary-art.html O O
-  O
 RT O O
 @JDay_Sept15 O O
 : O O
@@ -387,7 +368,6 @@ Lets O O
 get O O
 it O O
 ! O O
-  O
 EXA-OIL O O
 . O O
 COM O O
@@ -403,13 +383,12 @@ September O O
 0 O O
 -- O O
 Deep B-company O
-Sea I-company O
+Sea I-company $UNK$
 Intervention I-company O
 has O O
 opened O O
 ... O O
 http://bit.ly/cZZGj7 O O
-  O
 @darrencyrus O O
 ee O O
 it O O
@@ -438,13 +417,11 @@ down O O
 the O O
 sink O O
 LOL O O
-  O
 FRIDAY O O
 Sept O O
 . O O
 17 O O
 http://goo.gl/fb/83ib3 O O
-  O
 RT O O
 @ItsTheTeenLife O O
 : O O
@@ -469,7 +446,6 @@ jeans O O
 . O O
 -_- O O
 #ItsTheTeenLife O O
-  O
 18 O O
 Sep O O
 10 O O
@@ -487,23 +463,22 @@ Lull O O
 : O O
 0.0 O O
 , O O
-Dir O O
+Dir O $UNK$
 : O O
 WNW O O
 , O O
 Temp O O
 : O O
 4.0 O O
-  O
 &lt; O O
 3 O O
 it O O
 RT O O
 @Djcheapshot O O
 : O O
-Tonite O O
-I O O
-m O O
+Tonite O $UNK$
+I O $UNK$
+m O $UNK$
 DJing O $UNK$
 at O O
 Mai B-facility $UNK$
@@ -533,7 +508,6 @@ Sorry O O
 . O O
 Bye O O
 . O O
-  O
 time O O
 to O O
 get O O
@@ -542,7 +516,6 @@ the O O
 PJ O O
 Bottoms O O
 ;D O O
-  O
 starting O O
 to O O
 be O O
@@ -563,7 +536,6 @@ s O O
 . O O
 critical O O
 mass/commercial O O
-  O
 The O O
 latest O O
 App O O
@@ -587,7 +559,6 @@ you've O O
 hear O O
 ... O O
 http://bit.ly/cy1wNb O O
-  O
 'RT O O
 @cobraxcobrax O O
 : O O
@@ -608,7 +579,7 @@ get O O
 entered O O
 to O O
 win O O
-3TB O O
+3TB O $UNK$
 using O O
 USB O O
 3.0 O O
@@ -617,7 +588,6 @@ Easy O O
 . O O
 http://ow.ly/2FXM2 O O
 #tech' O O
-  O
 Today O O
 I O O
 justt O O
@@ -634,7 +604,6 @@ wass O O
 cool O O
 thou( O O
 : O O
-  O
 @Mandiiemars O O
 she O O
 is O O
@@ -651,7 +620,6 @@ already O O
 miss O O
 u O O
 :( O O
-  O
 when O O
 a O O
 woman O O
@@ -683,7 +651,6 @@ something O O
 for O O
 me O O
 " O O
-  O
 Yes O O
 sir O O
 , O O
@@ -701,7 +668,6 @@ man O O
 that O O
 Josh B-person O
 . O O
-  O
 @Miss_deadpool O O
 May O O
 's O O
@@ -719,7 +685,6 @@ I O O
 'm O O
 confused O O
 . O O
-  O
 On O O
 our O O
 way O O
@@ -732,10 +697,9 @@ be O O
 a O O
 party O O
 for O O
-juniors O O
+juniors O $UNK$
 tonight O O
 ! O O
-  O
 RT O O
 @MirandaBuzz O O
 : O O
@@ -761,7 +725,6 @@ everybody O O
 like O O
 crazy O O
 :) O O
-  O
 We O O
 are O O
 tied O O
@@ -774,11 +737,11 @@ compete O O
 in O O
 South B-company $UNK$
 107 I-company $UNK$
-'s O $UNK$
+'s O O
 Battle O $UNK$
-of O O
-the O O
-Bands O O
+of O $UNK$
+the O $UNK$
+Bands O $UNK$
 next O O
 Friday O O
 for O O
@@ -789,11 +752,10 @@ open O O
 for O O
 ... O O
 http://fb.me/IxhGnUhs O O
-  O
 @divacoachdabney O O
 you O O
 made O O
-Nina B-person O
+Nina B-person $UNK$
 's O O
 day O O
 . O O
@@ -802,7 +764,6 @@ surprises O O
 for O O
 you O O
 . O O
-  O
 @vivarocks777 O O
 just O O
 giving O O
@@ -813,7 +774,6 @@ so O O
 don't O O
 hurt O O
 me O O
-  O
 @N4T4YLOR O O
 he'll O O
 probaly O O
@@ -829,7 +789,6 @@ havin O O
 a O O
 good O O
 time O O
-  O
 @bakontrack O O
 I O O
 was O O
@@ -846,7 +805,6 @@ time O O
 to O O
 tweet O O
 !!! O O
-  O
 ahhh O O
 the O O
 disapointment O O
@@ -858,7 +816,6 @@ awkward O O
 bait O O
 moments O O
 . O O
-  O
 ... O O
 around O O
 all O O
@@ -882,7 +839,6 @@ keeep O O
 me O O
 sane O O
 :) O O
-  O
 @Viic156 O O
 I'm O O
 Ocutta O $UNK$
@@ -897,7 +853,6 @@ otra O O
 tambn O O
 me O O
 gustaa O O
-  O
 My O O
 mum O O
 just O O
@@ -933,7 +888,6 @@ time O O
 a O O
 job O O
 ! O O
-  O
 Tidyin O O
 my O O
 room O O
@@ -952,7 +906,6 @@ its O O
 naturally O O
 curly O O
 . O O
-  O
 @hunleyd O O
 What O O
 is O O
@@ -961,7 +914,6 @@ them O O
 sooo O O
 long O O
 ? O O
-  O
 Because O O
 maybe O O
 You're O O
@@ -979,7 +931,6 @@ all O O
 You're O O
 my O O
 wonderwall O O
-  O
 @shhaunna_btm O O
 i'm O O
 not O O
@@ -990,7 +941,6 @@ doing O O
 my O O
 friday O O
 follows O O
-  O
 #aberdeen O O
 RT O O
 @flook_firehose2010Polar O O
@@ -1005,13 +955,12 @@ at O O
 10:28 O O
 am O O
 The O $UNK$
-Tunnels O $UNK$
-Carnegies O $UNK$
+Tunnels O O
+Carnegies O O
 Brae O O
 Aberdeen O O
 Un O O
 ... O O
-  O
 RT O O
 @aplusk O O
 : O O
@@ -1032,7 +981,6 @@ made O O
 you O O
 laugh O O
 ? O O
-  O
 Yup O O
 , O O
 it O O
@@ -1055,7 +1003,6 @@ it O O
 sheer O O
 bliss O O
 :) O O
-  O
 today O O
 is O O
 my O O
@@ -1065,7 +1012,6 @@ at O O
 the O O
 office O O
 . O O
-  O
 @soapsindepthcbs O O
 Disagree O O
 , O O
@@ -1095,7 +1041,6 @@ great O O
 ... O O
 splendidly O O
 . O O
-  O
 After O O
 a O O
 great O O
@@ -1106,14 +1051,13 @@ meetings O O
 with O O
 Houston B-geo-loc $UNK$
 , O O
-Fes B-person O
+Fes B-person $UNK$
 is O O
 back O O
 in O O
 Salt B-geo-loc $UNK$
 Lake I-geo-loc $UNK$
 . O O
-  O
 RT O O
 @cinnzcocky_yep O O
 " O O
@@ -1133,7 +1077,6 @@ on O O
 u O O
 next O O
 time O O
-  O
 @Kybil O O
 Hmm O O
 ... O O
@@ -1166,7 +1109,6 @@ of O O
 the O O
 story O O
 ... O O
-  O
 Madden B-product $UNK$
 tonite O O
 !!! O O
@@ -1188,7 +1130,6 @@ cut O O
 !! O O
 Ha O O
 ha O O
-  O
 Might O O
 have O O
 an O O
@@ -1202,7 +1143,6 @@ finish O O
 the O O
 decorating O O
 tomorrow O O
-  O
 Exhausted O O
 after O O
 a O O
@@ -1222,7 +1162,6 @@ and O O
 Wonder B-person O
 Woman I-person O
 ! O O
-  O
 Why O O
 do O O
 that O O
@@ -1238,7 +1177,7 @@ When O O
 on O O
 vacation O O
 in O O
-Cebu B-geo-loc O
+Cebu B-geo-loc $UNK$
 , O O
 you O O
 do O O
@@ -1250,7 +1189,6 @@ roommate O O
 boxers O O
 . O O
 #rulesbetweenmen O O
-  O
 Before O O
 I O O
 proceed O O
@@ -1270,9 +1208,8 @@ OVA I-movie O
 teaser O O
 pic O O
 , O O
-SFW O O
+SFW O $UNK$
 http://yfrog.com/0fg2kfj O O
-  O
 RT O O
 @WScottsdale O O
 : O O
@@ -1294,7 +1231,6 @@ September O O
 Happenings O O
 ! O O
 http://bit.ly/WHapps O O
-  O
 I O O
 was O O
 there O O
@@ -1307,7 +1243,6 @@ heheRT O O
 otw O O
 pelabuhan O O
 ratu O O
-  O
 #sp O O
 Facebook B-company $UNK$
 Job-Hunting O $UNK$
@@ -1330,7 +1265,6 @@ hang O O
 out O O
 ... O O
 http://migre.me/1kO1K O O
-  O
 Do O O
 n't O O
 Have O O
@@ -1351,7 +1285,6 @@ Drive O O
 Thru O O
 Window O O
 :) O O
-  O
 RT O O
 @rockerfuckerak O O
 : O O
@@ -1382,7 +1315,6 @@ that O O
 's O O
 when O O
 ... O O
-  O
 @jaredleto O O
 ... O O
 ive O O
@@ -1400,12 +1332,11 @@ me O O
 on O O
 stage O O
 during/before O O
-kings B-musicartist O
-and I-musicartist O
-queens I-musicartist O
+kings B-musicartist $UNK$
+and I-musicartist $UNK$
+queens I-musicartist $UNK$
 :( O O
 (( O O
-  O
 @iFckd_Hannah O O
 wow O O
 , O O
@@ -1433,7 +1364,6 @@ friday O O
 no O O
 parties O O
 ? O O
-  O
 @BieberEgypt O O
 I O O
 've O O
@@ -1453,7 +1383,6 @@ tomorrow O O
 . O O
 : O O
 S O O
-  O
 RT O O
 @TheOutlawz O O
 : O O
@@ -1475,14 +1404,13 @@ WE O O
 AINT O O
 LIKE O O
 THESE O O
-HOLLYWOOD B-geo-loc O
+HOLLYWOOD B-geo-loc $UNK$
 AZZ O O
 RAPPERS O O
 WE O O
 FOLLOW O O
 BACK O O
 ! O O
-  O
 @OGOchoCinco O O
 depends O O
 what O O
@@ -1500,7 +1428,6 @@ Sunday O O
 Go O O
 Lions B-sportsteam O
 !! O O
-  O
 It O O
 's O O
 5pm O O
@@ -1525,7 +1452,6 @@ weekend O O
 &lt; O O
 3 O O
 http://fb.me/xLeN7MAe O O
-  O
 RT O O
 @WholeFoodsATX O O
 : O O
@@ -1552,7 +1478,6 @@ at O O
 sundown O O
 ! O O
 #30thBday O O
-  O
 holy O O
 FUCK O O
 THIS O O
@@ -1563,7 +1488,6 @@ BORING O O
 DAY O O
 EVER O O
 . O O
-  O
 RT O O
 @Lexus4u O O
 : O O
@@ -1586,7 +1510,6 @@ EYE O O
 CANDY O O
 ! O O
 LOL O O
-  O
 No O O
 loss O O
 is O O
@@ -1609,10 +1532,9 @@ write O O
 it O O
 down O O
 . O O
-  O
 dude O O
 got O O
-gucci B-company O
+gucci B-company $UNK$
 symbol O O
 tatted O O
 all O O
@@ -1620,7 +1542,6 @@ over O O
 his O O
 face O O
 http://mediacheckout.blogspot.com/2010/09/nuh-uhhhhhhh-yesterday-we-showed-you.html O O
-  O
 I O O
 was O O
 rotfl O O
@@ -1640,9 +1561,9 @@ these O O
 2 O O
 boys O O
 , O O
-Shane B-person O
+Shane B-person $UNK$
 &amp; O O
-Jonah B-person O
+Jonah B-person $UNK$
 . O O
 And O O
 this O O
@@ -1653,15 +1574,14 @@ Claire B-person $UNK$
 ( O O
 cont O O
 ) O O
-  O
 It O O
 's O O
 supposed O O
 to O O
 rain O O
 in O O
-The B-geo-loc O
-Bay I-geo-loc O
+The B-geo-loc $UNK$
+Bay I-geo-loc $UNK$
 on O O
 Sunday O O
 ... O O
@@ -1677,10 +1597,9 @@ Whatever O O
 same O O
 thing O O
 . O O
-  O
 @usnOOzin O O
-Ahh O O
-Steve B-person O
+Ahh O $UNK$
+Steve B-person $UNK$
 , O O
 you're O O
 so O O
@@ -1703,7 +1622,6 @@ the O O
 wife O O
 recovering O O
 ??? O O
-  O
 @nickjonas O O
 I O O
 just O O
@@ -1732,7 +1650,6 @@ adorable O O
 thing O O
 ever O O
 . O O
-  O
 @KathyReid O O
 have O O
 a O O
@@ -1740,7 +1657,6 @@ fun O O
 day O O
 of O O
 freedom O O
-  O
 @coulditbeJenG O O
 It O O
 was O O
@@ -1758,7 +1674,6 @@ just O O
 know O O
 it O O
 . O O
-  O
 [ O O
 GigaOM O O
 ] O O
@@ -1784,7 +1699,6 @@ protection O O
 scheme O O
 ... O O
 http://bit.ly/blWf0e O O
-  O
 @peterc83 O O
 night O O
 night O O
@@ -1792,7 +1706,6 @@ good O O
 luck O O
 tomorrow O O
 x O O
-  O
 A O O
 nigga O O
 not O O
@@ -1812,7 +1725,6 @@ QB O O
 hurt O O
 . O O
 smdh O O
-  O
 Tomorrow O O
 is O O
 Saturday O O
@@ -1833,7 +1745,6 @@ rip O O
 #rasta O O
 #marley O O
 #bobmarley O O
-  O
 @Beauty_NsideOut O O
 when O O
 i O O
@@ -1847,7 +1758,6 @@ to O O
 sleep O O
 ! O O
 #Crazy O O
-  O
 dear O O
 youtube B-company O
 why O O
@@ -1861,7 +1771,6 @@ upload O O
 a O O
 video O O
 gggrrrrr O O
-  O
 @josiery O O
 Hope O O
 that O O
@@ -1878,7 +1787,7 @@ I'll O O
 be O O
 an O O
 ' O O
-S.S O O
+S.S O $UNK$
 ' O O
 in O O
 the O O
@@ -1887,7 +1796,6 @@ of O O
 the O O
 year O O
 :) O O
-  O
 Man O O
 gets O O
 20 O O
@@ -1898,7 +1806,6 @@ plot O O
 against O O
 judge O O
 http://bit.ly/agB9iL O O
-  O
 'ive O O
 been O O
 driving O O
@@ -1924,7 +1831,6 @@ radio O O
 . O O
 #loveit O O
 though' O O
-  O
 RT O O
 @DubOnDaBeatz O O
 : O O
@@ -1952,7 +1858,6 @@ lips O O
 to O O
 chan O O
 ... O O
-  O
 @Quintessence_T O O
 I O O
 COME O O
@@ -1968,7 +1873,6 @@ SUM O O
 NEW O O
 PIX O O
 AIGHT O O
-  O
 I'm O O
 mad O O
 coach O O
@@ -1987,7 +1891,6 @@ I O O
 can't O O
 even O O
 play O O
-  O
 What O O
 is O O
 everyone O O
@@ -2007,7 +1910,6 @@ Friday B-tvshow O
 Night I-tvshow O
 Lights I-tvshow O
 ? O O
-  O
 If O O
 you O O
 are O O
@@ -2026,14 +1928,13 @@ Say O O
 you O O
 are O O
 with O O
-salsa B-person O
-caliente I-person O
+salsa B-person $UNK$
+caliente I-person $UNK$
 and O O
 get O O
 in O O
 ... O O
 http://fb.me/FZVzm8H9 O O
-  O
 My O O
 mama O O
 just O O
@@ -2051,7 +1952,6 @@ so O O
 much O O
 better O O
 ! O O
-  O
 @borneobaby O O
 Me O O
 neither O O
@@ -2077,7 +1977,6 @@ I O O
 know O O
 it O O
 ! O O
-  O
 UT O O
 : O O
 John B-person $UNK$
@@ -2105,10 +2004,9 @@ game O O
 wit O O
 ... O O
 http://es.pn/aBLrXN O O
-  O
 Our O O
 Favorite O O
-YouTube B-company O
+YouTube B-company $UNK$
 Videos O O
 This O O
 Week O O
@@ -2133,7 +2031,6 @@ cr O O
 ... O O
 http://bit.ly/cuy0yt O O
 #in O O
-  O
 check O O
 out O O
 @140hours O O
@@ -2144,7 +2041,6 @@ tonight O O
 Dreaming O O
 Storm O O
 http://bit.ly/5Bq0Qm O O
-  O
 Damn O O
 . O O
 Is O O
@@ -2153,7 +2049,6 @@ in O O
 town O O
 tonite O O
 ? O O
-  O
 @KrisReyes O O
 Have O O
 an O O
@@ -2166,16 +2061,14 @@ miss O O
 seeing O O
 u O O
 on O O
-CityTV B-other O
+CityTV B-other $UNK$
 ! O O
-  O
 Bar O O
 hopping O O
 in O O
-buckhead O O
+buckhead O $UNK$
 tonight O O
 . O O
-  O
 @itzkeving O O
 im O O
 getting O O
@@ -2185,7 +2078,6 @@ this O O
 monday O O
 :' O O
 ) O O
-  O
 I O O
 just O O
 took O O
@@ -2217,7 +2109,6 @@ Try O O
 it O O
 : O O
 http://bit.ly/cNarLp O O
-  O
 So O O
 this O O
 will O O
@@ -2235,7 +2126,6 @@ i O O
 went O O
 to O O
 lhs B-facility O
-  O
 Ah O O
 crap O O
 . O O
@@ -2256,7 +2146,6 @@ so O O
 excited O O
 :' O O
 ( O O
-  O
 @zedohhee O O
 hehehe-ahh O O
 I O O
@@ -2279,7 +2168,6 @@ really O O
 hard O O
 ) O O
 :) O O
-  O
 RT O O
 @ContrarianDave O O
 : O O
@@ -2290,14 +2178,14 @@ story O O
 on O O
 today O O
 's O O
-Forensic O $UNK$
+Forensic O O
 Science O $UNK$
 Comm O O
 . O O
 meeting O O
 , O O
 where O O
-Willingham B-geo-loc O
+Willingham B-geo-loc $UNK$
 probe O O
 took O O
 a O O
@@ -2306,7 +2194,6 @@ turn O O
 . O O
 http://bi O O
 ... O O
-  O
 @swavelbean13 O O
 :D O O
 How O O
@@ -2315,7 +2202,6 @@ your O O
 day O O
 ? O O
 :) O O
-  O
 RT O O
 @DamnTeenQuotes O O
 : O O
@@ -2329,12 +2215,12 @@ age O O
 , O O
 spencer B-person O
 from O O
-iCarly B-tvshow O
+iCarly B-tvshow $UNK$
 was O O
 Crazy B-person O
-Steve I-person O
+Steve I-person $UNK$
 , O O
-Carly B-person O
+Carly B-person $UNK$
 was O O
 Megan B-person $UNK$
 and O O
@@ -2343,7 +2229,6 @@ was O O
 fat O O
 . O O
 #damnteenquotes O O
-  O
 @angelportugues O O
 LMAO O O
 ! O O
@@ -2354,7 +2239,6 @@ one O O
 day O O
 ?: O O
 P O O
-  O
 @preciousweapons O O
 #filthyglaMOUR O O
 arrived O O
@@ -2366,7 +2250,6 @@ http://twitpic.com/2pai07 O O
 LOOOK O O
 please O O
 39 O O
-  O
 Beginning O O
 what O O
 I O O
@@ -2396,15 +2279,14 @@ on O O
 DVD O O
 already O O
 . O O
-  O
 @erutan O O
 Stanford B-other $UNK$
 's O O
 Robert B-person $UNK$
 Laughlin I-person $UNK$
-( O O
-Nobel O O
-Physics1998 O O
+( O $UNK$
+Nobel O $UNK$
+Physics1998 O $UNK$
 ) O O
 has O O
 a O O
@@ -2420,7 +2302,6 @@ rt O O
 now O O
 . O O
 http://bit.ly/9k1L4N O O
-  O
 @CHRIS_Daughtry O O
 Aw O O
 ur O O
@@ -2452,7 +2333,6 @@ don't O O
 like O O
 my O O
 stuff O O
-  O
 @LOOPYisLINDSAY O O
 hahaha O O
 . O O
@@ -2464,7 +2344,6 @@ ur O O
 day O O
 2day O O
 ? O O
-  O
 &quot; O O
 Just O O
 when O O
@@ -2480,9 +2359,8 @@ back O O
 in O O
 &quot; O O
 -Summer O O
-#Vancouver O O
+#Vancouver O $UNK$
 #summerstill O O
-  O
 RT O O
 @WALuvsKatStacks O O
 : O O
@@ -2511,7 +2389,6 @@ Fck O O
 you O O
 #teamkatstacksbitch O O
 ... O O
-  O
 Today O O
 is O O
 goin O O
@@ -2528,7 +2405,6 @@ this O O
 weekend O O
 started O O
 !!! O O
-  O
 I O O
 HATE O O
 MY O O
@@ -2541,12 +2417,10 @@ when O O
 I O O
 need O O
 him O O
-  O
 2 O O
 days O O
 till O O
 #BoardwalkEmpire O O
-  O
 It O O
 sucks O O
 when O O
@@ -2563,7 +2437,6 @@ you O O
 feel O O
 barfy O O
 . O O
-  O
 We O O
 are O O
 one O O
@@ -2585,7 +2458,6 @@ measurements O O
 taken O O
 today O O
 ! O O
-  O
 @SaviiISJAPAN O O
 nooo O O
 - O O
@@ -2602,7 +2474,6 @@ ask O O
 people O O
 lool O O
 . O O
-  O
 Just O O
 casually O O
 stalking O O
@@ -2613,7 +2484,6 @@ tomorrow O O
 .... O O
 NO O O
 BIGGIE O O
-  O
 Over O O
 My O O
 Boyfriend O O
@@ -2626,7 +2496,6 @@ The O O
 Damn O O
 Thing O O
 . O O
-  O
 ugh O O
 so O O
 this O O
@@ -2659,17 +2528,16 @@ ass O O
 out O O
 so O O
 bad O O
-  O
-Soulja B-person O
-Boy I-person O
+Soulja B-person $UNK$
+Boy I-person $UNK$
 | O O
 TheDeAndreWay O O
 . O O
 com O O
 - O O
-The B-other O
+The B-other $UNK$
 DeAndre I-other $UNK$
-Way I-other O
+Way I-other $UNK$
 in O O
 stores O O
 Nov O O
@@ -2679,7 +2547,6 @@ Nov O O
 http://t.co/ifJBMTR O O
 via O O
 @SouljaBoy O O
-  O
 I O O
 need O O
 to O O
@@ -2701,7 +2568,6 @@ going O O
 , O O
 lol O O
 . O O
-  O
 @darynjones O O
 imma O O
 tell O O
@@ -2712,7 +2578,6 @@ time O O
 JUTHTIN B-person O
 BEAVERRRR I-person O
 !!!! O O
-  O
 @CHRIS_Daughtry O O
 I O O
 knew O O
@@ -2743,12 +2608,11 @@ a O O
 joke O O
 . O O
 :) O O
-  O
 RT O O
 @tabloidwatch O O
 : O O
-Daily B-company $UNK$
-Mail I-company $UNK$
+Daily B-company O
+Mail I-company O
 's O O
 not-at-all O O
 predictable O O
@@ -2762,15 +2626,14 @@ Pope B-person $UNK$
 battle O O
 to O O
 save O O
-Christmas B-other O
+Christmas B-other $UNK$
 . O O
-  O
 &quot; O O
 I O O
 gotta O O
 admit O O
 , O O
-Alex B-person O
+Alex B-person $UNK$
 sounds O O
 hot O O
 when O O
@@ -2789,7 +2652,6 @@ Cover O O
 someone O O
 's O O
 tumblr B-company O
-  O
 #reallymeans O O
 to O O
 love- O O
@@ -2806,7 +2668,6 @@ day O O
 with O O
 herz O O
 ! O O
-  O
 @DebVRuns O O
 hi O O
 pal O O
@@ -2821,7 +2682,6 @@ you O O
 heading O O
 home O O
 ! O O
-  O
 #thiswomaniscrazy O O
 she O O
 speeding O O
@@ -2844,7 +2704,6 @@ waving O O
 a O O
 bat O O
 ! O O
-  O
 I'm O O
 pleased O O
 to O O
@@ -2852,7 +2711,7 @@ have O O
 introduced O O
 @TheSmokingGunn O O
 to O O
-twitter B-company O
+twitter B-company $UNK$
 . O O
 May O O
 he O O
@@ -2862,21 +2721,18 @@ inane O O
 as O O
 me O O
 . O O
-  O
-Jan B-person $UNK$
-Brewer I-person $UNK$
+Jan B-person O
+Brewer I-person O
 : O O
 Beheadings O O
 ? O O
 http://bit.ly/a2LBMP O O
-  O
 Chilling O O
 wit O O
 my O O
 baby O O
 tonight O O
 ! O O
-  O
 were O O
 too O O
 much O O
@@ -2906,7 +2762,6 @@ like O O
 everyone O O
 else O O
 @JackieJackson5 O O
-  O
 the O O
 day O O
 @justinbieber O O
@@ -2924,7 +2779,6 @@ lol O O
 :) O O
 true O O
 story O O
-  O
 RT O O
 @pastorbrady O O
 : O O
@@ -2935,8 +2789,8 @@ Sunday O O
 morning O O
 gathering O O
 at O O
-New B-facility $UNK$
-Life I-facility $UNK$
+New B-facility O
+Life I-facility O
 can O O
 be O O
 watched O O
@@ -2947,7 +2801,6 @@ and O O
 11am O O
 - O O
 www.NLCLive.com O O
-  O
 So O O
 tired O O
 .. O O
@@ -2956,7 +2809,6 @@ twitter B-company O
 ! O O
 tty O O
 tomorrow O O
-  O
 @keoghsie O O
 It O O
 's O O
@@ -2986,8 +2838,7 @@ again O O
 ! O O
 HUrrah O O
 !! O O
-  O
-Music O $UNK$
+Music O O
 &amp; O O
 More O O
 Industry O O
@@ -2998,7 +2849,6 @@ Sep O O
 0 O O
 http://goo.gl/fb/5CBjZ O O
 #FABreality O O
-  O
 RT O O
 @davehodg O O
 : O O
@@ -3028,7 +2878,6 @@ a O O
 problem O O
 wit O O
 ... O O
-  O
 @ethernat O O
 You O O
 know O O
@@ -3054,7 +2903,6 @@ job O O
 is O O
 done O O
 :) O O
-  O
 What O O
 should O O
 you O O
@@ -3070,7 +2918,6 @@ few O O
 tips O O
 . O O
 http://www.calitigationblog.com/2010/09/articles/what-to-do-when-you-are-sued/ O O
-  O
 @SoccerByIves O O
 Let O O
 's O O
@@ -3096,11 +2943,10 @@ of O O
 Calcio B-geo-loc $UNK$
 worried O O
 .... O O
-  O
 Have O O
-DJ B-other O
-Got I-other O
-Us I-other O
+DJ B-other $UNK$
+Got I-other $UNK$
+Us I-other $UNK$
 Fallin I-other O
 in I-other O
 Love I-other O
@@ -3113,8 +2959,8 @@ Cause O O
 baby O O
 tonight O O
 , O O
-The O O
-dj O O
+The O $UNK$
+dj O $UNK$
 got O O
 us O O
 fallin O O
@@ -3122,7 +2968,6 @@ in O O
 love O O
 again O O
 " O O
-  O
 @Vivianna_loves O O
 I O O
 just O O
@@ -3146,7 +2991,6 @@ wanna O O
 wear O O
 lashes O O
 . O O
-  O
 @AyeoKitty O O
 ill O O
 txt O O
@@ -3164,8 +3008,7 @@ hold O O
 of O O
 my O O
 phone O O
-  O
-Israel B-geo-loc $UNK$
+Israel B-geo-loc O
 grinds O O
 to O O
 a O O
@@ -3174,12 +3017,11 @@ for O O
 Yom B-other $UNK$
 Kippur I-other $UNK$
 fasting O O
-day O O
-( O O
+day O $UNK$
+( O $UNK$
 wwrn.org O O
 ) O O
 http://bit.ly/cqlwCZ O O
-  O
 For O O
 women O O
 the O O
@@ -3207,7 +3049,6 @@ wasting O O
 his O O
 time O O
 . O O
-  O
 @glorybeful O O
 Well O O
 ... O O
@@ -3220,7 +3061,6 @@ tomorrow O O
 ! O O
 :o O O
 D O O
-  O
 RT O O
 @ChicagoFire O O
 : O O
@@ -3241,7 +3081,6 @@ S8 B-other O
 blog I-other O
 : O O
 http://ow.ly/2G43u O O
-  O
 I O O
 want O O
 it O O
@@ -3273,7 +3112,6 @@ ships O O
 next O O
 week O O
 ! O O
-  O
 Please O O
 , O O
 I O O
@@ -3288,14 +3126,13 @@ verbosity O O
 tonight O O
 . O O
 I'm O O
-UI(as O O
+UI(as O $UNK$
 in O O
-DUI O O
+DUI O $UNK$
 ) O O
 feel O O
 me O O
 ? O O
-  O
 I O O
 just O O
 remembered O O
@@ -3321,7 +3158,6 @@ but O O
 I O O
 forgot O O
 LOL O O
-  O
 Morning O O
 . O O
 Work O O
@@ -3347,7 +3183,6 @@ to O O
 #geelong O O
 ... O O
 #MelbourneTomorrow O O
-  O
 I O O
 don't O O
 get O O
@@ -3379,7 +3214,6 @@ already O O
 . O O
 8 O O
 ) O O
-  O
 The B-movie $UNK$
 Town I-movie $UNK$
 was O O
@@ -3399,11 +3233,10 @@ A I-movie O
 &quot; O O
 until O O
 &quot; O O
-Devil B-movie O
+Devil B-movie $UNK$
 &quot; O O
 starts O O
 ! O O
-  O
 RT O O
 @Madslanger O O
 : O O
@@ -3412,7 +3245,7 @@ in O O
 Naples B-geo-loc $UNK$
 tomorrow O O
 with O O
-N.E.R.D. B-musicartist O
+N.E.R.D. B-musicartist $UNK$
 , O O
 Maroon B-musicartist $UNK$
 5 I-musicartist O
@@ -3424,14 +3257,13 @@ MTV B-other $UNK$
 show O O
 . O O
 Tonight O O
-Stars B-facility O
+Stars B-facility $UNK$
 in O O
 Vordingborg B-geo-loc $UNK$
 - O O
 few O O
 tic O O
 ... O O
-  O
 RT O O
 @CHRIS_Daughtry O O
 : O O
@@ -3453,7 +3285,6 @@ coming O O
 years O O
 ago O O
 ... O O
-  O
 @lukeymoore O O
 you O O
 not O O
@@ -3476,7 +3307,6 @@ trying O O
 to O O
 rape O O
 me O O
-  O
 @Jsmoothhh O O
 it O O
 's O O
@@ -3488,7 +3318,6 @@ till O O
 Sunday O O
 night O O
 . O O
-  O
 TOP O O
 EVENT O O
 -- O O
@@ -3508,7 +3337,7 @@ to O O
 pros O O
 , O O
 home O O
-baristas O O
+baristas O $UNK$
 , O O
 c O O
 ... O O
@@ -3516,7 +3345,6 @@ c O O
 via O O
 @CoffeeGeek O O
 ) O O
-  O
 Done O O
 teaching O O
 in O O
@@ -3535,7 +3363,6 @@ swing O O
 dance O O
 tonight O O
 ! O O
-  O
 Checking O O
 out O O
 this O O
@@ -3545,8 +3372,7 @@ tell O O
 em O O
 Steve B-person $UNK$
 Dave I-person $UNK$
-Podcast O O
-  O
+Podcast O $UNK$
 Amazing O O
 . O O
 And O O
@@ -3567,7 +3393,6 @@ in O O
 10 O O
 days O O
 ! O O
-  O
 @SweetBee_90 O O
 what O O
 's O O
@@ -3576,7 +3401,6 @@ look O O
 for O O
 tonight O O
 ? O O
-  O
 RT O O
 @relentless1323 O O
 : O O
@@ -3610,7 +3434,6 @@ U O O
 just O O
 showed O O
 ... O O
-  O
 #MuchLove O O
 to O O
 my O O
@@ -3624,7 +3447,6 @@ in O O
 a O O
 couple O O
 days O O
-  O
 Think O O
 I O O
 'm O O
@@ -3640,7 +3462,6 @@ out O O
 tonight O O
 ! O O
 #bittersweet O O
-  O
 RT O O
 @chelseakent O O
 : O O
@@ -3653,8 +3474,7 @@ Cafe I-facility $UNK$
 tonight O O
 ! O O
 :) O O
-  O
-Columbus B-geo-loc $UNK$
+Columbus B-geo-loc O
 , O O
 GA B-geo-loc $UNK$
 : O O
@@ -3678,7 +3498,6 @@ eighty-five O O
 Come O O
 kickit O O
 ! O O
-  O
 I O O
 spent O O
 my O O
@@ -3709,7 +3528,6 @@ job O O
 Sittin O O
 ' O O
 BABIES O O
-  O
 There O O
 was O O
 just O O
@@ -3723,7 +3541,6 @@ is O O
 looking O O
 up O O
 . O O
-  O
 @pdparticle O O
 How O O
 do O O
@@ -3751,7 +3568,6 @@ thing O O
 years O O
 ago O O
 . O O
-  O
 'RT O O
 @keidence O O
 " O O
@@ -3766,7 +3582,6 @@ happy O O
 day O O
 !" O O
 http://dlvr.it/5RcZC' O O
-  O
 The O O
 last O O
 time O O
@@ -3785,7 +3600,6 @@ emailed O O
 was O O
 August O O
 . O O
-  O
 @godsgirl8494 O O
 I O O
 believe O O
@@ -3814,7 +3628,6 @@ feel O O
 it O O
 . O O
 :) O O
-  O
 This O O
 next O O
 question O O
@@ -3832,7 +3645,7 @@ the O O
 answer O O
 IS O O
 on O O
-JavaMonkeys O O
+JavaMonkeys O $UNK$
 . O O
 com O O
 . O O
@@ -3844,7 +3657,6 @@ pick O O
 a O O
 ... O O
 http://fb.me/GTRhPujh O O
-  O
 Dollar O O
 steady O O
 versus O O
@@ -3868,7 +3680,6 @@ a O O
 month O O
 ... O O
 http://bit.ly/a0F3dO O O
-  O
 RT O O
 @HippoArmy O O
 : O O
@@ -3879,12 +3690,11 @@ masturbators O O
 marched O O
 against O O
 Christine B-person $UNK$
-O'Donnell I-person $UNK$
+O'Donnell I-person O
 today O O
 http://bit.ly/9nTWQw O O
 Seriously O O
 . O O
-  O
 @JuicylyJas O O
 iiqht O O
 im O O
@@ -3895,7 +3705,6 @@ into O O
 sunday O O
 for O O
 .. O O
-  O
 @BeLIEveNcRisS O O
 omg O O
 yayyy O O
@@ -3928,7 +3737,6 @@ the O O
 concert O O
 !: O O
 ) O O
-  O
 RT O O
 @JBieber_isHOT O O
 : O O
@@ -3942,14 +3750,13 @@ its O O
 going O O
 to O O
 be O O
-World B-other O
-War I-other O
+World B-other $UNK$
+War I-other $UNK$
 3 I-other O
 !!!!!! O O
-  O
 Good B-facility O
 Day I-facility O
-Sunshine I-facility O
+Sunshine I-facility $UNK$
 http://bit.ly/cK4PB8 O O
 is O O
 available O O
@@ -3972,11 +3779,10 @@ fall O O
 in O O
 Rodanthe B-geo-loc O
 @OBXcom O O
-  O
-International B-other $UNK$
+International B-other O
 Observe I-other $UNK$
 the I-other O
-Moon I-other $UNK$
+Moon I-other O
 Night I-other $UNK$
 ( O O
 9/18/2010 O O
@@ -3992,7 +3798,6 @@ PM O O
 | O O
 http://bit.ly/bVOdBF O O
 #cuboulder O O
-  O
 My O O
 few O O
 followers O O
@@ -4026,7 +3831,6 @@ perfect O O
 ..!! O O
 ( O O
 : O O
-  O
 Sooo O O
 plans O O
 for O O
@@ -4044,13 +3848,11 @@ a O O
 night O O
 out O O
 . O O
-  O
 every O O
 time O O
 u O O
 smile O O
 =) O O
-  O
 I'm O O
 being O O
 stalked O O
@@ -4068,7 +3870,6 @@ just O O
 now O O
 . O O
 http://yfrog.com/eir70oj O O
-  O
 Pxleyes B-company O
 Top O O
 50 O O
@@ -4081,7 +3882,6 @@ August O O
 ... O O
 http://bit.ly/bgCyZ0 O O
 #photography O O
-  O
 @saarbei O O
 ooh O O
 ! O O
@@ -4104,7 +3904,6 @@ with O O
 good O O
 food O O
 ! O O
-  O
 @JustinxTyler O O
 i'm O O
 excited O O
@@ -4113,7 +3912,6 @@ see O O
 you O O
 tonight O O
 ! O O
-  O
 @littlesusie12 O O
 @4mike4ever O O
 I O O
@@ -4138,7 +3936,6 @@ so O O
 much O O
 ... O O
 love O O
-  O
 RT O O
 @LUNGevity O O
 : O O
@@ -4167,7 +3964,6 @@ Sun/Sept O O
 !... O O
 http O O
 ... O O
-  O
 I O O
 miss O O
 being O O
@@ -4193,7 +3989,6 @@ of O O
 my O O
 life O O
 . O O
-  O
 I O O
 was O O
 15 O O
@@ -4217,14 +4012,12 @@ late O O
 today O O
 . O O
 #lifeispointless O O
-  O
 Happy O O
 B-Day O O
-Jimmie B-person O
-Johnson I-person O
+Jimmie B-person $UNK$
+Johnson I-person $UNK$
 FLYING O O
 LIZARD O O
-  O
 Kahlua B-product O
 &lt; O O
 Coffee O O
@@ -4247,8 +4040,7 @@ great O O
 Friday O O
 night O O
 ! O O
-  O
-Facebook B-company O
+Facebook B-company $UNK$
 Job-Hunting O O
 App O O
 BranchOut O O
@@ -4270,7 +4062,6 @@ out O O
 with O O
 ... O O
 http://bit.ly/aLTo95 O O
-  O
 What O O
 do O O
 you O O
@@ -4297,7 +4088,6 @@ with O O
 the O O
 pain O O
 . O O
-  O
 Top O O
 M&amp;A O O
 news O O
@@ -4313,13 +4103,12 @@ week O O
 #World O O
 &gt; O O
 http://youreader.com/a.php?i=90133 O O
-  O
 Maikes O O
 hair O O
 . O O
 School O O
 . O O
-Webinar O O
+Webinar O $UNK$
 at O O
 the O O
 first O O
@@ -4342,7 +4131,6 @@ a O O
 day O O
 .; O O
 ) O O
-  O
 RT O O
 @TeamShaneDawson O O
 : O O
@@ -4371,7 +4159,6 @@ instead O O
 :( O O
 :' O O
 ) O O
-  O
 In O O
 the O O
 day O O
@@ -4393,7 +4180,6 @@ Ecclesiastes B-other O
 #JESUS O O
 #TRUTH O O
 #jesustweeters O O
-  O
 RT O O
 @broniaisdeadly O O
 : O O
@@ -4416,15 +4202,14 @@ I'll O O
 love O O
 you O O
 ... O O
-  O
 A O O
 guy O O
 at O O
 work O O
 calls O O
 me O O
-Larry B-person O
-Bird I-person O
+Larry B-person $UNK$
+Bird I-person $UNK$
 when O O
 I O O
 shoot O O
@@ -4438,8 +4223,8 @@ Should O O
 I O O
 call O O
 him O O
-Joel B-person $UNK$
-Ward I-person $UNK$
+Joel B-person O
+Ward I-person O
 if O O
 he O O
 's O O
@@ -4449,7 +4234,6 @@ hockey O O
 ? O O
 #profiling O O
 . O O
-  O
 Well O O
 , O O
 after O O
@@ -4478,7 +4262,6 @@ much O O
 start O O
 Monday O O
 :-) O O
-  O
 even O O
 better O O
 than O O
@@ -4486,7 +4269,6 @@ cocktail O O
 friday O O
 ! O O
 http://is.gd/ffDb9 O O
-  O
 @eatzombiebabies O O
 haha O O
 maybe O O
@@ -4500,7 +4282,6 @@ stream O O
 tomorrow O O
 ! O O
 lol O O
-  O
 @dancindeac O O
 bet O O
 the O O
@@ -4512,7 +4293,6 @@ this O O
 week O O
 . O O
 ;-) O O
-  O
 @MoochieBad O O
 I O O
 don't O O
@@ -4532,7 +4312,6 @@ nothing O O
 to O O
 do O O
 ! O O
-  O
 Sitting O O
 here O O
 feeling O O
@@ -4555,7 +4334,6 @@ a O O
 nice O O
 day O O
 . O O
-  O
 @bieberarmy_asia O O
 hey O O
 i O O
@@ -4584,7 +4362,6 @@ okkk O O
 ? O O
 thank O O
 you O O
-  O
 A O O
 slow O O
 yes O O
@@ -4617,7 +4394,6 @@ u O O
 2 O O
 shut O O
 up O O
-  O
 @_Flik_ O O
 awww O O
 he O O
@@ -4640,8 +4416,7 @@ an O O
 suspenders O O
 lol O O
 :P O O
-  O
-Balloon O $UNK$
+Balloon O O
 glowing O O
 ? O O
 We'd O O
@@ -4653,7 +4428,7 @@ before O O
 or O O
 after O O
 at O O
-Pi B-geo-loc O
+Pi B-geo-loc $UNK$
 ! O O
 CWE B-geo-loc O
 and O O
@@ -4667,9 +4442,8 @@ Kirkwood B-geo-loc $UNK$
 &amp; O O
 ... O O
 http://fb.me/I6SZ52nW O O
-  O
 On O O
-Thanksgiving B-other O
+Thanksgiving B-other $UNK$
 after O O
 you O O
 done O O
@@ -4683,7 +4457,6 @@ help O O
 with O O
 the O O
 dishes O O
-  O
 @bookpage O O
 We O O
 should O O
@@ -4700,7 +4473,6 @@ this O O
 week O O
 ... O O
 #deau O O
-  O
 RT O O
 @OscarBlandi O O
 : O O
@@ -4727,9 +4499,8 @@ invisible O O
 dry O O
 shampoo O O
 ! O O
-  O
-Major O $UNK$
-Muslim O $UNK$
+Major O O
+Muslim O O
 organisations O O
 throw O O
 weight O O
@@ -4744,7 +4515,6 @@ fascism O O
 and O O
 Islamophobia O $UNK$
 http://uaf.org.uk/1465 O O
-  O
 Why O O
 hate O O
 on O O
@@ -4772,7 +4542,6 @@ yourself O O
 cuz O O
 ur O O
 losers O O
-  O
 @Wes0010 O O
 good O O
 idea O O
@@ -4798,7 +4567,6 @@ died O O
 years O O
 ago O O
 ! O O
-  O
 When O O
 your O O
 database O O
@@ -4817,7 +4585,6 @@ missing O O
 #database O O
 #Security O O
 http://bit.ly/b1lWKW O O
-  O
 RT O O
 @ajc O O
 : O O
@@ -4831,13 +4598,13 @@ the O O
 American B-other $UNK$
 Professional I-other $UNK$
 Football I-other $UNK$
-Association I-other $UNK$
+Association I-other O
 ( O O
 we O O
 call O O
 it O O
 the O O
-NFL) B-other O
+NFL) B-other $UNK$
 . O O
 First O O
 draft O O
@@ -4846,33 +4613,31 @@ choice O O
 Brett B-person O
 Favre I-person O
 . O O
-  O
 Road O O
 snow O O
 is O O
 expected O O
 today O O
 on O O
-Milford B-other O
-Rd I-other O
+Milford B-other $UNK$
+Rd I-other $UNK$
 , O O
-Lindis B-geo-loc O
-Pass I-geo-loc O
+Lindis B-geo-loc $UNK$
+Pass I-geo-loc $UNK$
 and O O
-Arthurs B-geo-loc O
-Pass I-geo-loc O
+Arthurs B-geo-loc $UNK$
+Pass I-geo-loc $UNK$
 today O O
 http://ow.ly/2G4Re O O
 No O O
 warnings O O
 for O O
-Desert B-other O
-Rd I-other O
+Desert B-other $UNK$
+Rd I-other $UNK$
 , O O
 Lewis B-geo-loc $UNK$
 , O O
-Rimutakas B-geo-loc O
-  O
+Rimutakas B-geo-loc $UNK$
 @lauraluanabeth O O
 'll O O
 be O O
@@ -4884,12 +4649,11 @@ night O O
 ! O O
 yaaaay O O
 ! O O
-  O
 Pick O O
 up O O
 here O O
 . O O
-Deliver O O
+Deliver O $UNK$
 on O O
 Dayton B-geo-loc $UNK$
 NJ I-geo-loc $UNK$
@@ -4897,9 +4661,8 @@ tomorrow O O
 (@ O O
 Ball B-company $UNK$
 Metal I-company $UNK$
-Container I-company $UNK$
+Container I-company O
 ) O O
-  O
 Ew O O
 wait O O
 baq O O
@@ -4920,7 +4683,6 @@ friend O O
 JOY O O
 . O O
 -___-op O O
-  O
 @ToriVicotia O O
 aaahhh O O
 ! O O
@@ -4940,11 +4702,10 @@ yourself O O
 ! O O
 Haha O O
 ! O O
-  O
 OMG O O
 ! O O
 Miley B-person O
-Cyrus I-person O
+Cyrus I-person $UNK$
 Has O O
 A O O
 14-Year-Old O O
@@ -4955,8 +4716,8 @@ Paris B-person $UNK$
 Hilton I-person $UNK$
 , O O
 now O O
-Miley B-person O
-Cyrus I-person O
+Miley B-person $UNK$
+Cyrus I-person $UNK$
 ! O O
 Cops O O
 responded O O
@@ -4967,4 +4728,3 @@ in O O
 cal O O
 ... O O
 http://bit.ly/cd6OPC O O
-  O

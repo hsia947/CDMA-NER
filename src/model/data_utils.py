@@ -73,7 +73,10 @@ class NERDataset(object):
                 else:
                     line = line.replace("\t", " ")
                     ls = line.split(" ")
-                    word, tag = ls[0], ls[-1]
+                    if (len(ls) >= 4):
+                        word, tag = ls[0], ls[3]
+                    else:
+                        word, tag = ls[0], ls[-1]
                     if self.processing_word is not None:
                         word = self.processing_word(word)
                     if self.processing_tag is not None:

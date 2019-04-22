@@ -9,12 +9,14 @@ from tensorflow.python import pywrap_tensorflow
 
 
 
+
 class CDMAModel(Ner):
 
     def save_model(self, file):
         self.model.save_session()
 
     def load_model(self, restore_file, restore_path):
+        print("Loading pretrained model")
         self.model.build()
         CHECKPOINT_NAME = restore_file
         restored_vars = get_tensors_in_checkpoint_file(file_name=CHECKPOINT_NAME)
@@ -23,16 +25,13 @@ class CDMAModel(Ner):
         self.model.restore_session(restore_path)
         self.model.reinitialize_weights("proj")
 
-    def __init__(self, dataset_path):
+    def __init__(self):
         """
               initialize config
               build model
         """
+        print("Model cofig")
         self.config = Config()
-        self.config.filename_train = dataset_path+"/train"
-        self.config.filename_dev = dataset_path+"/dev"
-        self.config.filename_test = dataset_path+"/test"
-
         self.config.filename_chars = self.config.filename_chars.replace("source", "target")
         self.config.filename_glove = self.config.filename_glove.replace("source", "target")
         self.config.filename_tags = self.config.filename_tags.replace("source", "target")
@@ -64,6 +63,10 @@ class CDMAModel(Ner):
         :return: dataset
         create instance of  NERDataset for  creating dataset
         """
+        print("Building data object")
+        self.config.filename_train = dataset_name + "/train"
+        self.config.filename_dev = dataset_name + "/dev"
+        self.config.filename_test = dataset_name + "/test"
         self.train_data = NERDataset(self.config.filename_train, self.config.processing_word,
                            self.config.processing_tag, self.config.max_iter)
 
@@ -81,7 +84,8 @@ class CDMAModel(Ner):
         :return:
         call model.train(data,  dev)
         """
-        self.model.train(self.train_data, self.dev_data)
+        print("Training model")
+        return self.model.train(self.train_data, self.dev_data)
 
     def predict(self, data_path, *args, **kwargs):
         """
@@ -92,14 +96,20 @@ class CDMAModel(Ner):
         :return: preds, lentgth
         call model.predict_batch(data)
         """
+        print("Predicting test data")
         words, tags = [], []
         with open(data_path, encoding="utf8") as f:
 
             for line in f:
                 line = line.strip()
+                if len(line) == 0:
+                    continue
                 line = line.replace("\t", " ")
                 ls = line.split(" ")
-                word, tag = ls[0], ls[-1]
+                if len(ls) >= 4:
+                    word, tag = ls[0], ls[3]
+                else:
+                    word, tag = ls[0], ls[-1]
                 words += [word]
                 tags += [tag]
         tags_pred = self.model.predict(words)
@@ -121,6 +131,7 @@ class CDMAModel(Ner):
         call model.evaluation(test)
 
         """
+        print("Evaluating model")
         metrics = self.model.evaluate(self.test_data)
         p = metrics["p"]
         f1 = metrics["f1"]
