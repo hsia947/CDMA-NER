@@ -1,6 +1,6 @@
-from model.data_utils import NERDataset
-from model.sal_blstm_oal_crf_model import SAL_BLSTM_OAL_CRF_Model
-from model.config import Config
+from .model.data_utils import NERDataset
+from .model.sal_blstm_oal_crf_model import SAL_BLSTM_OAL_CRF_Model
+from .model.config import Config
 import os
 import tensorflow as tf
 from tensorflow.python import pywrap_tensorflow
