@@ -141,17 +141,17 @@ class BaseModel(object):
             self.logger.info("Epoch {:} out of {:}".format(epoch + 1,
                         self.config.nepochs))
 
-            score, loss_hist, train_acc_hist = self.run_epoch(train, dev, epoch)
+            score, loss_hist, acc = self.run_epoch(train, dev, epoch)
             self.config.lr *= self.config.lr_decay # decay learning rate
-
+            lost_list.extend(loss_hist)
+            acc_list.append(acc)
             # early stopping and saving best parameters
             if score >= best_score:
                 nepoch_no_imprv = 0
                 self.save_session()
                 best_score = score
                 self.logger.info("- new best score!")
-                lost_list.extend(loss_hist)
-                acc_list.append(train_acc_hist)
+
             else:
                 nepoch_no_imprv += 1
                 if nepoch_no_imprv >= self.config.nepoch_no_imprv:

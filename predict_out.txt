@@ -82,7 +82,7 @@ Good O O
 day O O
 :) O O
 from O O
-JPN B-geo-loc $UNK$
+JPN B-geo-loc O
 . O O
 @skaffbm O O
 love O O
@@ -185,7 +185,7 @@ ARTIST O O
 http://on.mtv.com/9w2tWQ O O
 &lt; O O
 -- O O
-GO O $UNK$
+GO O O
 AND O O
 VOTE O O
 , O O
@@ -305,7 +305,7 @@ kinds O O
 of O O
 reactions O O
 after O O
-Ayodhya B-person $UNK$
+Ayodhya B-person O
 verdict O O
 . O O
 Our O O
@@ -463,7 +463,7 @@ Lull O O
 : O O
 0.0 O O
 , O O
-Dir O $UNK$
+Dir O O
 : O O
 WNW O O
 , O O
@@ -476,10 +476,10 @@ it O O
 RT O O
 @Djcheapshot O O
 : O O
-Tonite O $UNK$
-I O $UNK$
+Tonite O O
+I O O
 m O $UNK$
-DJing O $UNK$
+DJing O O
 at O O
 Mai B-facility $UNK$
 Tai I-facility $UNK$
@@ -579,7 +579,7 @@ get O O
 entered O O
 to O O
 win O O
-3TB O $UNK$
+3TB O O
 using O O
 USB O O
 3.0 O O
@@ -738,10 +738,10 @@ in O O
 South B-company $UNK$
 107 I-company $UNK$
 's O O
-Battle O $UNK$
-of O $UNK$
-the O $UNK$
-Bands O $UNK$
+Battle O O
+of O O
+the O O
+Bands O O
 next O O
 Friday O O
 for O O
@@ -755,7 +755,7 @@ http://fb.me/IxhGnUhs O O
 @divacoachdabney O O
 you O O
 made O O
-Nina B-person $UNK$
+Nina B-person O
 's O O
 day O O
 . O O
@@ -954,7 +954,7 @@ Oct O O
 at O O
 10:28 O O
 am O O
-The O $UNK$
+The O O
 Tunnels O O
 Carnegies O O
 Brae O O
@@ -1051,7 +1051,7 @@ meetings O O
 with O O
 Houston B-geo-loc $UNK$
 , O O
-Fes B-person $UNK$
+Fes B-person O
 is O O
 back O O
 in O O
@@ -1109,7 +1109,7 @@ of O O
 the O O
 story O O
 ... O O
-Madden B-product $UNK$
+Madden B-product O
 tonite O O
 !!! O O
 the O O
@@ -1426,7 +1426,7 @@ on O O
 Sunday O O
 . O O
 Go O O
-Lions B-sportsteam O
+Lions B-sportsteam $UNK$
 !! O O
 It O O
 's O O
@@ -1598,7 +1598,7 @@ same O O
 thing O O
 . O O
 @usnOOzin O O
-Ahh O $UNK$
+Ahh O O
 Steve B-person $UNK$
 , O O
 you're O O
@@ -1787,7 +1787,7 @@ I'll O O
 be O O
 an O O
 ' O O
-S.S O $UNK$
+S.S O O
 ' O O
 in O O
 the O O
@@ -2066,7 +2066,7 @@ CityTV B-other $UNK$
 Bar O O
 hopping O O
 in O O
-buckhead O $UNK$
+buckhead O O
 tonight O O
 . O O
 @itzkeving O O
@@ -2185,7 +2185,7 @@ Comm O O
 meeting O O
 , O O
 where O O
-Willingham B-geo-loc $UNK$
+Willingham B-geo-loc O
 probe O O
 took O O
 a O O
@@ -2215,7 +2215,7 @@ age O O
 , O O
 spencer B-person O
 from O O
-iCarly B-tvshow $UNK$
+iCarly B-tvshow O
 was O O
 Crazy B-person O
 Steve I-person $UNK$
@@ -2280,11 +2280,11 @@ DVD O O
 already O O
 . O O
 @erutan O O
-Stanford B-other $UNK$
+Stanford B-other O
 's O O
 Robert B-person $UNK$
 Laughlin I-person $UNK$
-( O $UNK$
+( O O
 Nobel O $UNK$
 Physics1998 O $UNK$
 ) O O
@@ -2359,7 +2359,7 @@ back O O
 in O O
 &quot; O O
 -Summer O O
-#Vancouver O $UNK$
+#Vancouver O O
 #summerstill O O
 RT O O
 @WALuvsKatStacks O O
@@ -2940,13 +2940,13 @@ strike O O
 has O O
 fans O O
 of O O
-Calcio B-geo-loc $UNK$
+Calcio B-geo-loc O
 worried O O
 .... O O
 Have O O
-DJ B-other $UNK$
-Got I-other $UNK$
-Us I-other $UNK$
+DJ B-other O
+Got I-other O
+Us I-other O
 Fallin I-other O
 in I-other O
 Love I-other O
@@ -2959,7 +2959,7 @@ Cause O O
 baby O O
 tonight O O
 , O O
-The O $UNK$
+The O O
 dj O $UNK$
 got O O
 us O O
@@ -3017,8 +3017,8 @@ for O O
 Yom B-other $UNK$
 Kippur I-other $UNK$
 fasting O O
-day O $UNK$
-( O $UNK$
+day O O
+( O O
 wwrn.org O O
 ) O O
 http://bit.ly/cqlwCZ O O
@@ -3128,7 +3128,7 @@ tonight O O
 I'm O O
 UI(as O $UNK$
 in O O
-DUI O $UNK$
+DUI O O
 ) O O
 feel O O
 me O O
@@ -3245,7 +3245,7 @@ in O O
 Naples B-geo-loc $UNK$
 tomorrow O O
 with O O
-N.E.R.D. B-musicartist $UNK$
+N.E.R.D. B-musicartist O
 , O O
 Maroon B-musicartist $UNK$
 5 I-musicartist O
@@ -3257,7 +3257,7 @@ MTV B-other $UNK$
 show O O
 . O O
 Tonight O O
-Stars B-facility $UNK$
+Stars B-facility O
 in O O
 Vordingborg B-geo-loc $UNK$
 - O O
@@ -3337,7 +3337,7 @@ to O O
 pros O O
 , O O
 home O O
-baristas O $UNK$
+baristas O O
 , O O
 c O O
 ... O O
@@ -3502,7 +3502,7 @@ I O O
 spent O O
 my O O
 day O O
-Photoshopping O $UNK$
+Photoshopping O O
 Kerri B-person $UNK$
 russel I-person O
 into O O
@@ -3689,7 +3689,7 @@ angry O O
 masturbators O O
 marched O O
 against O O
-Christine B-person $UNK$
+Christine B-person O
 O'Donnell I-person O
 today O O
 http://bit.ly/9nTWQw O O
@@ -3780,10 +3780,10 @@ in O O
 Rodanthe B-geo-loc O
 @OBXcom O O
 International B-other O
-Observe I-other $UNK$
+Observe I-other O
 the I-other O
 Moon I-other O
-Night I-other $UNK$
+Night I-other O
 ( O O
 9/18/2010 O O
 ) O O
@@ -4108,7 +4108,7 @@ hair O O
 . O O
 School O O
 . O O
-Webinar O $UNK$
+Webinar O O
 at O O
 the O O
 first O O
@@ -4208,7 +4208,7 @@ at O O
 work O O
 calls O O
 me O O
-Larry B-person $UNK$
+Larry B-person O
 Bird I-person $UNK$
 when O O
 I O O
@@ -4428,7 +4428,7 @@ before O O
 or O O
 after O O
 at O O
-Pi B-geo-loc $UNK$
+Pi B-geo-loc O
 ! O O
 CWE B-geo-loc O
 and O O
@@ -4604,7 +4604,7 @@ we O O
 call O O
 it O O
 the O O
-NFL) B-other $UNK$
+NFL) B-other O
 . O O
 First O O
 draft O O
@@ -4653,13 +4653,13 @@ Pick O O
 up O O
 here O O
 . O O
-Deliver O $UNK$
+Deliver O O
 on O O
 Dayton B-geo-loc $UNK$
 NJ I-geo-loc $UNK$
 tomorrow O O
 (@ O O
-Ball B-company $UNK$
+Ball B-company O
 Metal I-company $UNK$
 Container I-company O
 ) O O

@@ -20,8 +20,8 @@ def main(input_file_path):
     plt.axis([0, 5, 0, 100])
     plt.legend(loc='lower right')
     #plt.gcf().set_size_inches(15, 12)
-    plt.savefig('ritter2011.png')
-    plt.show()
+    plt.savefig('ontonotes-nw.png')
+    #plt.show()
 
     p, f1, r = model.evaluate(None, None)
     output_path = model.predict(input_file_path+"/test")
@@ -29,6 +29,6 @@ def main(input_file_path):
 
 
 if __name__ == "__main__":
-    path = "datasets/ritter2011"
+    path = "datasets/ontonotes-nw"
     out_path = main(path)
     print("Predict_output_path: ", out_path)

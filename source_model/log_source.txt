@@ -2630,3 +2630,252 @@ Use standard file APIs to check for files with this prefix.
 2019-04-21 23:17:34,362:DEBUG: update_title_pos
 2019-04-21 23:17:41,885:INFO: Testing model over test set
 2019-04-21 23:17:47,954:INFO: acc 96.51 - f1 56.69 - p 62.24 - r 52.05
+2019-04-22 12:17:27,423:INFO: WARNING: randomly initializing word vectors
+2019-04-22 12:17:27,435:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-22 12:17:31,949:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:100: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-22 12:17:31,949:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:105: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-22 12:17:31,950:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-22 12:17:31,977:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-22 12:17:32,447:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:142: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-22 12:17:36,673:INFO: Initializing tf session
+2019-04-22 12:17:37,637:INFO: Reloading the latest trained model...
+2019-04-22 12:17:37,655:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-22 12:17:37,658:INFO: Restoring parameters from target_model/model_weights
+2019-04-22 12:17:39,096:INFO: Epoch 1 out of 2
+2019-04-22 12:19:57,055:INFO: acc 96.29 - f1 55.15 - p 58.33 - r 52.30
+2019-04-22 12:19:58,033:INFO: - new best score!
+2019-04-22 12:19:58,033:INFO: Epoch 2 out of 2
+2019-04-22 12:22:14,484:INFO: acc 96.60 - f1 57.23 - p 63.19 - r 52.30
+2019-04-22 12:22:15,396:INFO: - new best score!
+2019-04-22 12:22:16,066:DEBUG: update_title_pos
+2019-04-22 12:22:16,084:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:22:16,125:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:22:16,126:DEBUG: update_title_pos
+2019-04-22 12:22:16,183:DEBUG: update_title_pos
+2019-04-22 12:22:16,212:DEBUG: update_title_pos
+2019-04-22 12:22:16,263:DEBUG: update_title_pos
+2019-04-22 12:22:16,294:DEBUG: update_title_pos
+2019-04-22 12:23:47,405:DEBUG: update_title_pos
+2019-04-22 12:23:47,423:DEBUG: update_title_pos
+2019-04-22 12:23:47,456:DEBUG: update_title_pos
+2019-04-22 12:23:47,470:DEBUG: update_title_pos
+2019-04-22 12:23:47,520:DEBUG: update_title_pos
+2019-04-22 12:23:47,541:DEBUG: update_title_pos
+2019-04-22 12:23:47,575:DEBUG: update_title_pos
+2019-04-22 12:23:47,589:DEBUG: update_title_pos
+2019-04-22 12:23:47,635:DEBUG: update_title_pos
+2019-04-22 12:23:47,657:DEBUG: update_title_pos
+2019-04-22 12:23:47,692:DEBUG: update_title_pos
+2019-04-22 12:23:47,706:DEBUG: update_title_pos
+2019-04-22 12:23:47,750:DEBUG: update_title_pos
+2019-04-22 12:23:47,772:DEBUG: update_title_pos
+2019-04-22 12:23:47,807:DEBUG: update_title_pos
+2019-04-22 12:23:47,822:DEBUG: update_title_pos
+2019-04-22 12:23:47,870:DEBUG: update_title_pos
+2019-04-22 12:23:47,891:DEBUG: update_title_pos
+2019-04-22 12:23:47,927:DEBUG: update_title_pos
+2019-04-22 12:23:47,940:DEBUG: update_title_pos
+2019-04-22 12:23:47,986:DEBUG: update_title_pos
+2019-04-22 12:23:48,009:DEBUG: update_title_pos
+2019-04-22 12:23:48,048:DEBUG: update_title_pos
+2019-04-22 12:23:48,062:DEBUG: update_title_pos
+2019-04-22 12:23:48,112:DEBUG: update_title_pos
+2019-04-22 12:23:48,131:DEBUG: update_title_pos
+2019-04-22 12:23:48,166:DEBUG: update_title_pos
+2019-04-22 12:23:48,179:DEBUG: update_title_pos
+2019-04-22 12:28:17,838:INFO: WARNING: randomly initializing word vectors
+2019-04-22 12:28:17,843:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-22 12:28:18,440:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-22 12:28:18,440:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-22 12:28:18,441:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-22 12:28:18,445:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-22 12:28:18,855:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-22 12:28:23,025:INFO: Initializing tf session
+2019-04-22 12:28:23,939:INFO: Reloading the latest trained model...
+2019-04-22 12:28:23,945:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-22 12:28:23,948:INFO: Restoring parameters from target_model/model_weights
+2019-04-22 12:28:25,349:INFO: Epoch 1 out of 2
+2019-04-22 12:30:31,094:INFO: acc 96.19 - f1 55.76 - p 58.97 - r 52.87
+2019-04-22 12:30:31,801:INFO: - new best score!
+2019-04-22 12:30:31,801:INFO: Epoch 2 out of 2
+2019-04-22 12:30:44,055:INFO: Testing model over test set
+2019-04-22 12:30:55,320:INFO: acc 97.02 - f1 62.38 - p 69.29 - r 56.73
+2019-04-22 12:33:01,400:INFO: acc 96.25 - f1 54.55 - p 60.00 - r 50.00
+2019-04-22 12:33:01,530:DEBUG: update_title_pos
+2019-04-22 12:33:01,541:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:33:01,560:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:33:01,562:DEBUG: update_title_pos
+2019-04-22 12:33:01,647:DEBUG: update_title_pos
+2019-04-22 12:33:01,677:DEBUG: update_title_pos
+2019-04-22 12:33:01,720:DEBUG: update_title_pos
+2019-04-22 12:33:01,737:DEBUG: update_title_pos
+2019-04-22 12:33:20,338:DEBUG: update_title_pos
+2019-04-22 12:33:20,353:DEBUG: update_title_pos
+2019-04-22 12:33:20,383:DEBUG: update_title_pos
+2019-04-22 12:33:20,395:DEBUG: update_title_pos
+2019-04-22 12:33:20,437:DEBUG: update_title_pos
+2019-04-22 12:33:20,454:DEBUG: update_title_pos
+2019-04-22 12:33:20,489:DEBUG: update_title_pos
+2019-04-22 12:33:20,501:DEBUG: update_title_pos
+2019-04-22 12:33:20,565:DEBUG: update_title_pos
+2019-04-22 12:33:20,582:DEBUG: update_title_pos
+2019-04-22 12:33:20,616:DEBUG: update_title_pos
+2019-04-22 12:33:20,629:DEBUG: update_title_pos
+2019-04-22 12:33:20,681:DEBUG: update_title_pos
+2019-04-22 12:33:20,697:DEBUG: update_title_pos
+2019-04-22 12:33:20,729:DEBUG: update_title_pos
+2019-04-22 12:33:20,741:DEBUG: update_title_pos
+2019-04-22 12:33:20,794:DEBUG: update_title_pos
+2019-04-22 12:33:20,812:DEBUG: update_title_pos
+2019-04-22 12:33:20,849:DEBUG: update_title_pos
+2019-04-22 12:33:20,861:DEBUG: update_title_pos
+2019-04-22 12:33:20,913:DEBUG: update_title_pos
+2019-04-22 12:33:20,929:DEBUG: update_title_pos
+2019-04-22 12:33:20,962:DEBUG: update_title_pos
+2019-04-22 12:33:20,973:DEBUG: update_title_pos
+2019-04-22 12:33:21,042:DEBUG: update_title_pos
+2019-04-22 12:33:21,061:DEBUG: update_title_pos
+2019-04-22 12:33:21,098:DEBUG: update_title_pos
+2019-04-22 12:33:21,110:DEBUG: update_title_pos
+2019-04-22 12:33:21,154:DEBUG: update_title_pos
+2019-04-22 12:33:21,172:DEBUG: update_title_pos
+2019-04-22 12:33:21,209:DEBUG: update_title_pos
+2019-04-22 12:33:21,221:DEBUG: update_title_pos
+2019-04-22 12:33:21,949:DEBUG: update_title_pos
+2019-04-22 12:33:21,965:DEBUG: update_title_pos
+2019-04-22 12:33:21,997:DEBUG: update_title_pos
+2019-04-22 12:33:22,008:DEBUG: update_title_pos
+2019-04-22 12:33:30,652:DEBUG: update_title_pos
+2019-04-22 12:33:30,667:DEBUG: update_title_pos
+2019-04-22 12:33:30,699:DEBUG: update_title_pos
+2019-04-22 12:33:30,710:DEBUG: update_title_pos
+2019-04-22 12:33:31,280:DEBUG: update_title_pos
+2019-04-22 12:33:31,297:DEBUG: update_title_pos
+2019-04-22 12:33:31,332:DEBUG: update_title_pos
+2019-04-22 12:33:31,345:DEBUG: update_title_pos
+2019-04-22 12:33:31,401:DEBUG: update_title_pos
+2019-04-22 12:33:31,419:DEBUG: update_title_pos
+2019-04-22 12:33:31,460:DEBUG: update_title_pos
+2019-04-22 12:33:31,473:DEBUG: update_title_pos
+2019-04-22 12:33:31,535:DEBUG: update_title_pos
+2019-04-22 12:33:31,554:DEBUG: update_title_pos
+2019-04-22 12:33:31,599:DEBUG: update_title_pos
+2019-04-22 12:33:31,611:DEBUG: update_title_pos
+2019-04-22 12:33:31,667:DEBUG: update_title_pos
+2019-04-22 12:33:31,684:DEBUG: update_title_pos
+2019-04-22 12:33:31,724:DEBUG: update_title_pos
+2019-04-22 12:33:31,735:DEBUG: update_title_pos
+2019-04-22 12:33:32,015:DEBUG: update_title_pos
+2019-04-22 12:33:32,032:DEBUG: update_title_pos
+2019-04-22 12:33:32,073:DEBUG: update_title_pos
+2019-04-22 12:33:32,085:DEBUG: update_title_pos
+2019-04-22 12:33:33,177:DEBUG: update_title_pos
+2019-04-22 12:33:33,194:DEBUG: update_title_pos
+2019-04-22 12:33:33,232:DEBUG: update_title_pos
+2019-04-22 12:33:33,243:DEBUG: update_title_pos
+2019-04-22 12:34:11,404:INFO: Testing model over test set
+2019-04-22 12:34:15,777:INFO: acc 96.81 - f1 59.51 - p 62.58 - r 56.73
+2019-04-22 12:38:05,547:INFO: WARNING: randomly initializing word vectors
+2019-04-22 12:38:05,553:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-22 12:38:06,149:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-22 12:38:06,149:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-22 12:38:06,150:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-22 12:38:06,154:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-22 12:38:06,566:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-22 12:38:10,769:INFO: Initializing tf session
+2019-04-22 12:38:11,620:INFO: Reloading the latest trained model...
+2019-04-22 12:38:11,626:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-22 12:38:11,629:INFO: Restoring parameters from target_model/model_weights
+2019-04-22 12:38:12,995:INFO: Epoch 1 out of 2
+2019-04-22 12:40:18,886:INFO: acc 96.62 - f1 59.15 - p 62.99 - r 55.75
+2019-04-22 12:40:19,589:INFO: - new best score!
+2019-04-22 12:40:19,589:INFO: Epoch 2 out of 2
+2019-04-22 12:42:22,219:INFO: acc 96.44 - f1 56.69 - p 63.57 - r 51.15
+2019-04-22 12:42:22,339:DEBUG: update_title_pos
+2019-04-22 12:42:22,351:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:42:22,373:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:42:22,375:DEBUG: update_title_pos
+2019-04-22 12:42:22,465:DEBUG: update_title_pos
+2019-04-22 12:42:22,497:DEBUG: update_title_pos
+2019-04-22 12:42:22,541:DEBUG: update_title_pos
+2019-04-22 12:42:22,565:DEBUG: update_title_pos
+2019-04-22 12:43:13,099:INFO: Testing model over test set
+2019-04-22 12:43:18,029:INFO: acc 96.89 - f1 63.43 - p 71.01 - r 57.31
+2019-04-22 12:43:30,765:INFO: WARNING: randomly initializing word vectors
+2019-04-22 12:43:30,771:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-22 12:43:31,379:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:99: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-22 12:43:31,379:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:104: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-22 12:43:31,380:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-22 12:43:31,385:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-22 12:43:31,858:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\CDMA\src\model\sal_blstm_oal_crf_model.py:141: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-22 12:43:36,741:INFO: Initializing tf session
+2019-04-22 12:43:37,718:INFO: Reloading the latest trained model...
+2019-04-22 12:43:37,724:WARNING: From C:\Users\User\PycharmProjects\CDMA-NER\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-22 12:43:37,729:INFO: Restoring parameters from target_model/model_weights
+2019-04-22 12:43:39,297:INFO: Epoch 1 out of 2
+2019-04-22 12:46:02,591:INFO: acc 96.47 - f1 57.06 - p 58.43 - r 55.75
+2019-04-22 12:46:03,767:INFO: - new best score!
+2019-04-22 12:46:03,767:INFO: Epoch 2 out of 2
+2019-04-22 12:48:13,741:INFO: acc 96.53 - f1 56.06 - p 70.43 - r 46.55
+2019-04-22 12:48:13,887:DEBUG: update_title_pos
+2019-04-22 12:48:13,903:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:48:13,940:DEBUG: findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('C:\\Users\\User\\PycharmProjects\\CDMA-NER\\lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2019-04-22 12:48:13,943:DEBUG: update_title_pos
+2019-04-22 12:48:14,005:INFO: Testing model over test set
+2019-04-22 12:48:19,471:INFO: acc 97.10 - f1 63.48 - p 76.23 - r 54.39
