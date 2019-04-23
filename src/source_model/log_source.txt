@@ -1,0 +1,102 @@
+2019-04-23 03:22:01,614:INFO: WARNING: randomly initializing word vectors
+2019-04-23 03:22:01,621:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-23 03:22:02,102:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:116: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-23 03:22:02,103:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-23 03:22:02,103:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-23 03:22:02,109:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-23 03:22:02,391:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:132: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-23 03:22:04,811:INFO: Initializing tf session
+2019-04-23 03:22:05,607:INFO: Epoch 1 out of 5
+2019-04-23 03:40:47,807:INFO: f1 51.34 - acc 95.24
+2019-04-23 03:51:37,275:INFO: WARNING: randomly initializing word vectors
+2019-04-23 03:51:37,282:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-23 03:51:37,728:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:116: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-23 03:51:37,728:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-23 03:51:37,729:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-23 03:51:37,735:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-23 03:51:38,020:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:132: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-23 03:51:40,227:INFO: Initializing tf session
+2019-04-23 03:51:41,013:INFO: Epoch 1 out of 5
+2019-04-23 03:52:41,080:INFO: WARNING: randomly initializing word vectors
+2019-04-23 03:52:41,086:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-23 03:52:41,537:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:116: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-23 03:52:41,538:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-23 03:52:41,539:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-23 03:52:41,545:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-23 03:52:41,813:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:132: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-23 03:52:44,101:INFO: Initializing tf session
+2019-04-23 03:52:44,859:INFO: Epoch 1 out of 5
+2019-04-23 04:10:52,612:INFO: f1 53.83 - acc 95.56
+2019-04-23 04:10:52,916:INFO: - new best score!
+2019-04-23 04:10:52,916:INFO: Epoch 2 out of 5
+2019-04-23 04:23:38,301:INFO: WARNING: randomly initializing word vectors
+2019-04-23 04:23:38,307:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-23 04:23:38,728:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:116: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-23 04:23:38,729:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:121: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-23 04:23:38,730:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-23 04:23:38,735:WARNING: From /home/wellen0223/.local/lib/python3.5/site-packages/tensorflow/python/ops/rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-23 04:23:38,986:WARNING: From /home/wellen0223/CDMA-NER/src/model/blstm_crf_model.py:132: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-23 04:23:41,100:INFO: Initializing tf session
+2019-04-23 04:23:41,826:INFO: Epoch 1 out of 5
+2019-04-23 04:40:26,268:INFO: acc 95.49 - f1 53.55
+2019-04-23 04:40:26,788:INFO: - new best score!
+2019-04-23 04:40:26,788:INFO: Epoch 2 out of 5
+2019-04-23 04:58:01,931:INFO: acc 96.80 - f1 68.84
+2019-04-23 04:58:02,195:INFO: - new best score!
+2019-04-23 04:58:02,195:INFO: Epoch 3 out of 5
+2019-04-23 05:16:11,229:INFO: acc 97.33 - f1 75.59
+2019-04-23 05:16:11,570:INFO: - new best score!
+2019-04-23 05:16:11,570:INFO: Epoch 4 out of 5
+2019-04-23 05:34:19,921:INFO: acc 97.60 - f1 79.02
+2019-04-23 05:34:20,241:INFO: - new best score!
+2019-04-23 05:34:20,241:INFO: Epoch 5 out of 5
+2019-04-23 05:52:19,422:INFO: acc 97.81 - f1 81.13
+2019-04-23 05:52:19,687:INFO: - new best score!

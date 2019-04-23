@@ -66,9 +66,9 @@ class Config():
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with prep_source_data.py)
-    filename_words = "src/data/source_words.txt"
-    filename_tags = "src/data/source_tags.txt"
-    filename_chars = "src/data/source_chars.txt"
+    filename_words = "data/source_words.txt"
+    filename_tags = "data/source_tags.txt"
+    filename_chars = "data/source_chars.txt"
 
     # training
     train_embeddings = True

@@ -222,6 +222,7 @@ class BLSTM_CRF_Model(BaseModel):
         batch_size = self.config.batch_size
         nbatches = (len(train) + batch_size - 1) // batch_size
         prog = Progbar(target=nbatches)
+        loss_hist = []
         print("total batches: "+str(nbatches))
         # iterate over dataset
         for i, (words, labels) in enumerate(minibatches(train, batch_size)):
@@ -229,6 +230,7 @@ class BLSTM_CRF_Model(BaseModel):
                     self.config.dropout)
             _, train_loss, summary = self.sess.run(
                     [self.train_op, self.loss, self.merged], feed_dict=fd)
+            loss_hist.append(train_loss)
             # tensorboard
             if i % 10 == 0:
                 prog.update(i + 1, [("train loss", train_loss)])
@@ -240,7 +242,7 @@ class BLSTM_CRF_Model(BaseModel):
                 for k, v in metrics.items()])
         self.logger.info(msg)
 
-        return metrics["f1"]
+        return metrics["f1"], loss_hist, metrics["acc"]
 
 
     def run_evaluate(self, test):

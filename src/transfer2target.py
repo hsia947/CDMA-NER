@@ -69,7 +69,7 @@ def main():
     dev   = NERDataset(config.filename_dev, config.processing_word,
                        config.processing_tag, config.max_iter)
     # train model
-    model.train(train, dev)
+   _, _ =  model.train(train, dev)
 
 if __name__ == "__main__":
     main()
