@@ -12,6 +12,7 @@ def main(input_file_path):
     # loss_hist_ = loss_hist[1::100]  # sparse the curve a bit
     plt.plot(loss_hist, '-o')
     plt.xlabel('Iteration')
+<<<<<<< HEAD
    
    # plt.subplot(2, 1, 2)
    # plt.title('Accuracy')
@@ -19,7 +20,17 @@ def main(input_file_path):
    # plt.xlabel('Epoch')
    # plt.axis([0, 5, 0, 100])
    # plt.legend(loc='lower right')
+=======
+    """
+    plt.subplot(2, 1, 2)
+    plt.title('Accuracy')
+    plt.plot(train_acc_hist, '-o', label='Training')
+    plt.xlabel('Epoch')
+    plt.axis([0, 5, 0, 100])
+    plt.legend(loc='lower right')
+>>>>>>> 9edd35e256df141e6906824d0d22d1e2615e5e06
     #plt.gcf().set_size_inches(15, 12)
+    """
     plt.savefig('ontonotes-nw.png')
     #plt.show()
 
